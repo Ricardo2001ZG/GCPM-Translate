@@ -11,22 +11,22 @@
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"You may be wondering how to obtain &6large quantities&r of common resources used in &bGregTech&r. This might be old news to seasoned players, but it's actually possible to set up &dpassive processes&r to make various materials and chemicals &2fully renewable&r."
+				"你可能在想如何获得 &6大量&r 的常见资源，这些资源在 &bGregTech&r 中被广泛使用。这对老玩家来说可能是老生常谈，但实际上可以设置 &d被动过程&r 来制造各种材料和化学品 &2完全可再生&r。"
 				""
-				"We've added this chapter to lead you towards some setups that you &7&omight&r desire. Obviously, there's no need to do all of these, but who doesn't love &2\"free\" resources&r."
+				"我们添加这一章是为了引导你朝着一些你可能想要的设置前进。显然，不必做所有这些，但谁不喜欢 &2\"免费的\"资源&r呢？"
 				""
-				"&9&lA footnote:&r There's no way we could document all of the renewable routes in &bGregTech&r. This quest page merely serves as a primer to lead &6newer players&r through their options. Not every option listed in this quest book is optimal, so we urge you to experiment!"
+				"&9&l脚注:&r 我们无法记录所有在 &bGregTech&r 中的可再生路线。这个任务页面仅仅是为了引导 &6新玩家&r 了解他们的选择。并非书中列出的每个选项都是最优的，所以我们鼓励你去尝试！"
 			]
 			icon: "minecraft:big_dripleaf"
 			id: "4D7A771B67DAFC6F"
 			size: 1.2d
-			subtitle: "Very conscious of you!"
+			subtitle: "非常贴心的你！"
 			tasks: [{
 				id: "10D096D6F4770F24"
-				title: "I love renewable resources!"
+				title: "我爱可再生资源！"
 				type: "checkmark"
 			}]
-			title: "Promoting a Sustainable Playthrough"
+			title: "促进可持续的游戏体验"
 			x: 1.2d
 			y: -0.6d
 		}
@@ -36,17 +36,17 @@
 				"1F2359106FC95603"
 			]
 			description: [
-				"Ah, the Rock Crusher - such an unassuming machine that initially appears to only really be a builder's best friend. Who could look past infinite Cobblestone, Deepslate, or Obsidian?"
+				"啊，岩石破碎机 - 这样一台不起眼的机器，最初看起来似乎只是建筑者的好帮手。谁能忽视无限的卵石、深板岩或黑曜石呢？"
 				""
-				"Don't be fooled, though, as this little machine might just shock you with the array of materials it makes renewable when you macerate its rocks down to dust form. The surrounding quests will clue you in."
+				"但不要被迷惑，这台小机器在你将石头磨成粉末时，可能会让你惊讶于它能制造出多少可再生材料。周围的任务会给你提示。"
 			]
 			icon: "gtceu:lv_rock_crusher"
 			id: "55D8E30978CBBC0D"
 			shape: "circle"
-			subtitle: "More like game breaking, am I right?"
+			subtitle: "更像是破坏游戏，我说得对吗？"
 			tasks: [{
 				id: "21A653703F408934"
-				title: "Rock Breaking"
+				title: "破碎岩石"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -54,40 +54,40 @@
 		}
 		{
 			dependencies: ["55D8E30978CBBC0D"]
-			description: ["Cobblestone is just the start of things. Let's make a Cobbleworks!"]
+			description: ["卵石只是开始。让我们来制造一个卵石工厂！"]
 			id: "54D73D049F8CD9FE"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Oh, we're only just getting started."
+			subtitle: "哦，我们才刚刚开始。"
 			tasks: [{
 				consume_items: false
 				count: 64L
 				id: "72A52930F1754ABF"
 				item: "minecraft:cobblestone"
-				title: "Cobblestone"
+				title: "卵石"
 				type: "item"
 			}]
-			title: "The Joy of Cobblestone"
+			title: "卵石的乐趣"
 			x: 0.33d
 			y: -1.65d
 		}
 		{
 			dependencies: ["54D73D049F8CD9FE"]
 			description: [
-				"&6Stone Dust&r can be centrifuged in &bMV&r for a wide range of miscellaneous materials. It's a slow and expensive process, but you may wish to check it out."
+				"&6石粉&r 可以在 &bMV&r 中离心提取出多种杂项材料。这个过程缓慢且昂贵，但你可能想看看。"
 				""
-				"Obviously, Quartzite is Quartzite. Did you know that you could extract any excess Quartzite into &eLiquid Glass&r?"
+				"显然，石英岩就是石英岩。你知道你可以将任何多余的石英岩提取成 &e液态玻璃&r 吗？"
 				""
-				"&aPotassium Feldspar&r electrolyses into some incredibly useful resources."
+				"&a钾长石&r 电解后会产生一些非常有用的资源。"
 				""
-				"You also have a (low) chance for &dBiotite&r, which notably electrolyses for a very slow source of &bFluorine&r."
+				"你还有 (低) 概率获得 &d黑云母&r，显著电解后会慢慢获得 &b氟&r。"
 				""
-				"Finally, &aMetal Mixture dust&r is useless until you can centrifuge it at &5EV&r. Pretty much all of its outputs when centrifuged are very useful."
+				"最后，&a金属混合物粉末&r 在 &5EV&r 下是无用的。几乎所有的离心产出都非常有用。"
 			]
 			id: "668A8BDDEE17865E"
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Small Stone, Big Byproducts"
+			subtitle: "小石头，大副产品"
 			tasks: [{
 				id: "3C1B921715553377"
 				item: "gtceu:stone_dust"
@@ -99,11 +99,11 @@
 		{
 			dependencies: ["54D73D049F8CD9FE"]
 			description: [
-				"Just Forge Hammer that Cobblestone and you'll get some &dGravel&r."
+				"只需用锻造锤敲打卵石，你就能获得一些 &d碎石&r。"
 				""
-				"Gravel macerates into &6Stone Dust&r, but with a low chance of Flint when the recipe is performed in a &6HV Macerator&r or above. You probably want to sift for Flint, anyway!"
+				"碎石在 &6HV 磨粉机&r 或以上的设备中磨成 &6石粉&r，但在这个过程中有低概率获得燧石。你可能还是想筛选燧石！"
 				""
-				"Flint Dust centrifuges into &aSilicon Dioxide&r, which is then electrolysed for Silicon and Oxygen."
+				"燧石粉离心提取出 &a二氧化硅&r，然后电解出硅和氧。"
 			]
 			id: "52868F643F0A1007"
 			shape: "rsquare"
@@ -120,14 +120,14 @@
 		{
 			dependencies: ["52868F643F0A1007"]
 			description: [
-				"Yet another &bForge Hammer&r step, but you'll be making &dSand&r renewably. With renewable Sand comes renewable Glass (remember to try using an &9Arc Furnace&r for that sweet &adoubled&r yield!)."
+				"又一个 &b锻造锤&r 步骤，但你将可再生地制造 &d沙子&r。随着可再生沙子的出现，玻璃也变得可再生（记得尝试使用 &9电弧炉&r 来获得更高的产出！）。"
 				""
-				"Quartz Sand Dust centrifuges into a chanced output of &3Certus Quartz&r Dust."
+				"石英沙粉离心提取出有机会获得 &3Certus Quartz&r 粉末。"
 			]
 			id: "10FD7C65FC83ADD6"
 			shape: "rsquare"
 			size: 0.55d
-			subtitle: "Two vast and trunkless legs of stone..."
+			subtitle: "两条巨大的无干扰的石腿..."
 			tasks: [{
 				id: "6724DCD56A7592FF"
 				item: "minecraft:sand"
@@ -139,14 +139,14 @@
 		{
 			dependencies: ["10FD7C65FC83ADD6"]
 			description: [
-				"Yup - &brenewable&r Glass."
+				"没错 - &b可再生&r 玻璃。"
 				""
-				"Glass'll always be useful throughout your playthrough in a variety of recipes."
+				"玻璃在你的游戏过程中始终会在各种配方中派上用场。"
 			]
 			id: "471B85B964C578A7"
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Glass Hurts, doesn't it..."
+			subtitle: "玻璃是痛苦，不是吗..."
 			tasks: [{
 				id: "71A450692F1DC98D"
 				item: "minecraft:glass"
@@ -162,14 +162,14 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Pulverise your Diorite into Dust, then centrifuge for Mirabilite Dust and Clay Dust."
+				"将你的花岗岩磨成粉末，然后离心提取出美丽石粉和粘土粉。"
 				""
-				"Mirabilite yields minimal Sulfur, but Clay Dust is the real treasure here. When electrolysed, you'll get some Aluminium for your troubles. Not bad!"
+				"美丽石可获得少量硫，但粘土粉才是真正的宝藏。当电解时，你会获得一些铝，真不错！"
 			]
 			id: "43D5A5F95EEB339C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Mirabilite, Clay..."
+			subtitle: "美丽石，粘土..."
 			tasks: [{
 				id: "6358C3084C675965"
 				item: "minecraft:diorite"
@@ -185,14 +185,14 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Granite Dust centrifuges into Redrock Dust and the familiar Silicon Dioxide Dust."
+				"花岗岩粉离心提取出红岩粉和熟悉的二氧化硅粉。"
 				""
-				"Silicon Dioxide is generally just great to have, and Redrock centrifuges into Calcite (that's renewable Calcium) and Flint."
+				"二氧化硅通常是非常有用的，而红岩离心提取出方解石（那是可再生的钙）和燧石。"
 			]
 			id: "0089AA3A92C02334"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Redrock, Silicon Dioxide..."
+			subtitle: "红岩，二氧化硅..."
 			tasks: [{
 				id: "7D054563301323A4"
 				item: "minecraft:granite"
@@ -208,14 +208,14 @@
 				"7FA0ACB7F161F378"
 			]
 			description: [
-				"Deepslate centrifuges into... you guessed it... Silicon Dioxide! You may want to set this up for the guaranteed Biotite output, as Biotite electrolyses into Fluorine."
+				"深板岩离心提取出...你猜对了...二氧化硅！你可能想设置这个以获得保证的黑云母产出，因为黑云母电解出氟。"
 				""
-				"This is obviously a far better source of Biotite than Stone Dust. Hopefully, you didn't waste your time setting that up!"
+				"这显然是比石粉更好的黑云母来源。希望你没有浪费时间去设置那个！"
 			]
 			id: "3B436487305AEE38"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Silicon Dioxide, Fluorine..."
+			subtitle: "二氧化硅，氟..."
 			tasks: [{
 				id: "64EF28C6902C7083"
 				item: "minecraft:deepslate"
@@ -231,14 +231,14 @@
 				"0DBC148D92A9F69F"
 			]
 			description: [
-				"Andesite Dust will get you some delicious Asbestos Dust, and some Saltpeter Dust to boot."
+				"安山岩粉将为你带来美味的石棉粉和一些硝石粉。"
 				""
-				"Asbestos is a slow source of Magnesium, and Saltpeter has a variety of uses in chemistry."
+				"石棉是缓慢的镁来源，而硝石在化学中有多种用途。"
 			]
 			id: "3BCA8923DF575D5D"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Asbestos, Saltpeter... (No Create)"
+			subtitle: "石棉，硝石... (没有创造)"
 			tasks: [{
 				id: "74AEE715BE76C0CF"
 				item: "minecraft:andesite"
@@ -254,14 +254,14 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"By placing some Redstone Dust into your Rock Breaker, you'll find yourself making some Obsidian."
+				"将一些红石粉放入你的岩石破碎机中，你会发现自己在制造一些黑曜石。"
 				""
-				"Obsidian Dust is quite useful, as it electrolyses into Iron."
+				"黑曜石粉非常有用，因为它电解出铁。"
 			]
 			id: "71972471AFB97BB2"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Fallout: New Vegas, Iron..."
+			subtitle: "辐射：新维加斯，铁..."
 			tasks: [{
 				id: "3C423DE1EB48AFF5"
 				item: "minecraft:obsidian"
@@ -277,14 +277,14 @@
 				"16A6AE5C770DB83A"
 			]
 			description: [
-				"Basalt Dust centrifuges into Olivine, a material which can be used to substitute Emerald in a small handful of recipes - for example, when making Engraved Crystal Chips."
+				"玄武岩粉离心提取出橄榄石，这种材料可以在少数配方中替代绿宝石 - 例如，在制作雕刻水晶芯片时。"
 				""
-				"You also get a pittance of Dark Ash."
+				"你还会得到少量的黑灰。"
 			]
 			id: "1937057C27596942"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Olivine, Dark Ashes..."
+			subtitle: "橄榄石，黑灰..."
 			tasks: [{
 				id: "6F2F8349BF8AF29C"
 				item: "minecraft:basalt"
@@ -302,14 +302,14 @@
 				"7FA0ACB7F161F378"
 			]
 			description: [
-				"Not to be confused with regular Granite, Red Granite has some useful utility when the dust is processed. "
+				"不要与普通花岗岩混淆，红花岗岩在粉末处理时有一些有用的用途。"
 				""
-				"Electrolysing it yields Aluminium for slightly fewer steps than the renewable Clay electrolysis."
+				"电解时可获得铝，步骤比可再生粘土电解少一些。"
 			]
 			id: "789E2DC829DD1828"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Aluminium..."
+			subtitle: "铝..."
 			tasks: [{
 				id: "10A533EC38D279DA"
 				item: "gtceu:red_granite"
@@ -324,11 +324,11 @@
 				"26394C1290D70AB6"
 				"16A6AE5C770DB83A"
 			]
-			description: ["Marble Dust isn't anything to write home about, yielding Calcite and Magnesium."]
+			description: ["大理石粉没什么好说的，产出方解石和镁。"]
 			id: "3E3EB69F34F50A9C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Calcite, Magnesium..."
+			subtitle: "方解石，镁..."
 			tasks: [{
 				id: "0DED39C9E1966F0B"
 				item: "gtceu:marble"
@@ -343,20 +343,20 @@
 				"48141DBA683F6B5A"
 			]
 			description: [
-				"By collecting Air with a &6Gas Collector&r and cooling it to Liquid state with a &3Vacuum Freezer&r, you can then distill the liquid Air for a plethora of valuable resources."
+				"通过使用 &6气体收集器&r 收集空气，并用 &3真空冷冻机&r 将其冷却到液态，然后你可以提取液态空气以获得大量有价值的资源。"
 				""
-				"You thought that was all? Air collection isn't limited to the &2Overworld&r - whilst you'll require a higher-tier Distillation Tower to distill the \"higher\" tiers of liquid Air, you can also process air from the &4Nether&r and the &5End&r. This process is mostly optional, but you'll definitely find it to be a rewarding one."
+				"你以为这就完了吗？空气收集并不限于 &2上界&r - 虽然你需要更高等级的蒸馏塔来提取液态空气的 \"更高\" 等级，但你也可以处理来自 &4下界&r 和 &5末地&r 的空气。这个过程大多是可选的，但你一定会发现它是值得的。"
 			]
 			icon: "gtceu:distillation_tower"
 			id: "24A90D07C3A35370"
 			shape: "circle"
-			subtitle: "Things are up in the air right now..."
+			subtitle: "现在一切都悬在空中..."
 			tasks: [{
 				id: "2DE291473F207BF8"
-				title: "Air truly is wonderful."
+				title: "空气真是美妙。"
 				type: "checkmark"
 			}]
-			title: "All Kinds Of Air (Distillation)"
+			title: "各种空气（蒸馏）"
 			x: -0.1499999999999999d
 			y: -0.7d
 		}
@@ -366,27 +366,27 @@
 				"7820DF52516344F4"
 			]
 			description: [
-				"&5Ender Air&r is probably the most interesting of the three airs to distill. Requiring an &9IV Distillation Tower&r and distilling in batches of 200,000L, you'll need to outfit your DT with at least an &9IV&r Input Hatch (or an &5ME Hatch&r if you're inclined)."
+				"&5末地空气&r 可能是这三种空气中最有趣的一种。需要 &9IV 蒸馏塔&r，并以 200,000L 的批量进行蒸馏，你需要为你的 DT 配备至少一个 &9IV&r 输入舱（或者如果你倾向的话，可以使用 &5ME 舱&r）。"
 				""
-				"You're getting a ton of Nitrogen, Oxygen, Helium, and Deuterium - the latter of which is commonly used in &aFusion&r. Tritium is used to make &6Helium Plasma&r, which is commonly agreed to be the best plasma for &2power generation&r."
+				"你会获得大量氮、氧、氦和氘 - 后者通常用于 &a聚变&r。氚用于制造 &6氦等离子体&r，通常被认为是最佳的 &2发电&r 等离子体。"
 				"{@pagebreak}"
-				"Krypton and Xenon are your run-of-the-mill &aEBF-boosting&r Noble gases. At this point, you should consider running most (if not all) of your EBF recipes on &bCircuit 2&r to benefit from the faster durations."
+				"氪和氙是普通的 &aEBF增强&r 稀有气体。此时，你应该考虑在 &b电路 2&r 上运行大多数（如果不是全部）EBF 配方，以便受益于更快的持续时间。"
 				""
-				"Would you look at that - you get &dRadon&r as well! It's a slow process, especially when you consider that your old setup (did you set it up?) already loops on itself, but &dmore Radon&r is nice."
+				"看看吧 - 你还会得到 &d氡&r！这过程比较缓慢，尤其是考虑到你的旧设置（你设置了吗？）已经可以自我循环，但 &d更多的氡&r 是不错的。"
 				""
-				"Last but not least, you're getting a low chance of &3Ender Pearl Dust&r. The chances are low enough that you shouldn't give up on the Mixer recipe just yet... but once again, more &3Ender Pearls&r are nice!"
+				"最后，你还有低概率获得 &3末影珍珠粉&r。概率低到你不应该放弃混合器配方...但再次强调，更多的 &3末影珍珠&r 是不错的！"
 			]
 			icon: "gtceu:liquid_ender_air_bucket"
 			id: "77BBAB9CA586BB36"
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Nitrogen, Oxygen, Helium, Krypton, Xenon, Radon, Ender Pearls..."
+			subtitle: "氮、氧、氦、氪、氙、氡、末影珍珠..."
 			tasks: [{
 				id: "37E57DD2AD97DD10"
-				title: "I'm surprised I can breathe in the End."
+				title: "我很惊讶我能在末地呼吸。"
 				type: "checkmark"
 			}]
-			title: "Liquid Ender Air"
+			title: "液态末地空气"
 			x: -3.15d
 			y: -0.7d
 		}
@@ -397,25 +397,25 @@
 				"6958029B5514D4EC"
 			]
 			description: [
-				"This was touched upon in the &5EV&r chapter, but we'll focus on what this distillation gets you here."
+				"这在 &5EV&r 章节中提到过，但我们将在这里重点介绍这个蒸馏能给你带来的。"
 				""
-				"The Nitrogen output is &bsubstantial&r, and can help you keep any &ePyrolyse Ovens&r running. You should buffer some of the Nitrogen so you can &aboost your EBFs&r - faster recipe times save your sanity and energy in equal measures."
+				"氮的产出是 &b可观的&r，可以帮助你保持任何 &e热解炉&r 的运行。你应该缓冲一些氮，以便你可以 &aboost 你的 EBFs&r - 更快的配方时间同样能节省你的精力和能量。"
 				"{@pagebreak}"
-				"Helium and Argon yields are low, but ideally you can run the Air Distillation as a &dpassive process&r every so often to keep your supplies topped up. Both are used to &aboost EBF speeds&r."
+				"氦和氩的产出较低，但理想情况下，你可以定期将空气蒸馏作为 &d被动过程&r 来保持你的供应充足。两者都用于 &aboost EBF 速度&r。"
 				""
-				"&bCrushed Ice&r is... well, &bCrushed Ice&r. Maybe you could open a cocktail bar?"
+				"&b碎冰&r 是...好吧，&b碎冰&r。也许你可以开一家鸡尾酒吧？"
 			]
 			icon: "gtceu:liquid_air_bucket"
 			id: "213211A0BC475C32"
 			shape: "rsquare"
 			size: 0.75d
-			subtitle: "Nitrogen, Helium, Argon...."
+			subtitle: "氮、氦、氩...."
 			tasks: [{
 				id: "3964A8A27402A11B"
-				title: "I promise I won't sell my air as a commodity!"
+				title: "我保证我不会把我的空气当商品出售！"
 				type: "checkmark"
 			}]
-			title: "Liquid Air"
+			title: "液态空气"
 			x: -1.15d
 			y: -0.7d
 		}
@@ -426,49 +426,49 @@
 				"6958029B5514D4EC"
 			]
 			description: [
-				"Carbon Monoxide is useful when making &6Butyraldehyde&r for your Laminated Glass in &9late IV&r."
+				"一氧化碳在制作 &6丁醛&r 以用于你的层压玻璃时非常有用，在 &9晚 IV&r。"
 				""
-				"&6Coal Gas&r can be processed in a Distillation Tower for a variety of useful outputs."
+				"&6煤气&r 可以在蒸馏塔中处理，以获得多种有用的产出。"
 				""
-				"Helium-3 is only used in &bFusion&r, and Neon is used to boost a single &aBlast Furnace&r recipe - &4UHV&r superconductors!"
+				"氦-3 仅用于 &b聚变&r，而氖用于提升单个 &a高炉&r 配方 - &4UHV&r 超导体！"
 				""
-				"Ashes are always useful for the handful of resources they grant."
+				"灰烬总是对它们所提供的少量资源有用。"
 			]
 			icon: "gtceu:liquid_nether_air_bucket"
 			id: "38E5B595C33A071C"
 			shape: "rsquare"
 			size: 0.7d
-			subtitle: "Carbon, Coal Gas, Helium-3..."
+			subtitle: "碳、煤气、氦-3..."
 			tasks: [{
 				id: "074BDDF3F1AE08AA"
-				title: "It's not all hellish in the Nether."
+				title: "在下界并不全是地狱。"
 				type: "checkmark"
 			}]
-			title: "Liquid Nether Air"
+			title: "液态下界空气"
 			x: -2.15d
 			y: -0.7d
 		}
 		{
 			dependencies: ["4D7A771B67DAFC6F"]
 			description: [
-				"Just so you're aware - vanilla farms such as &7Iron Golems&r or &ePiglins&r have been &4disabled&r in this pack. There are obviously ways to cheese the pack (such as some good old Minecraft &acapitalism&r, &mif you catch our drift&r), but we encourage you to try to play without taking advantage of some notorious vanilla \"&ocheese&r\"."
+				"请注意，像 &7铁傀儡&r 或 &e猪灵&r 这样的原版农场在这个包中已被 &4禁用&r。显然有一些方法可以利用这个包（比如一些老旧的 Minecraft &acapitalism&r，&m如果你明白我们的意思&r），但我们鼓励你尝试在不利用一些臭名昭著的原版 \"&ocheese&r\" 的情况下进行游戏。"
 				""
-				"It's possible that in the future, we'll just make a core-mod for the pack, so players can re-enable the disabled mob drops. For now, the drops are disabled via &5KubeJS script&r, so if you're script-savvy, the file can be removed at &o&7server_scripts/vanilla/loot_drops.js&r."
+				"未来我们可能会为这个包制作一个核心模组，以便玩家可以重新启用被禁用的怪物掉落。目前，掉落是通过 &5KubeJS 脚本&r 禁用的，所以如果你精通脚本，可以在 &o&7server_scripts/vanilla/loot_drops.js&r 中删除该文件。"
 			]
 			icon: "minecraft:iron_golem_spawn_egg"
 			id: "7ECD974215E77432"
 			shape: "circle"
-			subtitle: "Is it safe? Is it alright?"
+			subtitle: "这安全吗？没事吧？"
 			tasks: [{
 				id: "19F0161CE47673EE"
-				title: "Oh, darn. That kinda sucks."
+				title: "哦，真可惜。这有点糟糕。"
 				type: "checkmark"
 			}]
-			title: "What about my mob farm?"
+			title: "我的怪物农场怎么办？"
 			x: 1.0d
 			y: 0.5d
 		}
 	]
-	subtitle: ["We'll be rich, soon enough!"]
-	title: "Renewability and You"
+	subtitle: ["我们很快就会富有！"]
+	title: "可再生性与您"
 }
