@@ -95,14 +95,14 @@
 				"5B2696206205CB2E"
 			]
 			description: [
-				"Gotta say, Cupronickel ingots look pretty tasty."
+				"我得说，铜镍合金锭看起来真不错。"
 				""
-				"&l&3Lore:&r&o IRL, Cupronickel usually contains additional elements such as Iron or Manganese to improve its strength. The Cupronickel in GregTech is probably more like Constantan (55:45 Copper:Nickel)."
+				"&l&3背景:&r&o 在现实生活中，铜镍合金通常含有铁或锰等额外元素以提高其强度。GregTech中的铜镍合金可能更像是常量合金（55:45 铜:镍）。"
 			]
 			id: "70432F650591353C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Legally distinct Constantan"
+			subtitle: "法律上独立的常量合金"
 			tasks: [{
 				id: "77875BBDC0A937A9"
 				item: "gtceu:cupronickel_ingot"
@@ -117,14 +117,14 @@
 				"4A92AFD2532EED26"
 			]
 			description: [
-				"&l&3Lore:&r&o You might find Kanthal around the home. Due to its excellent thermal conductivity and intermediate electric resistance, Kanthal is usually found in toasters and heaters!"
+				"&l&3背景:&r&o 你可能会在家中找到Kanthal。由于其优良的热导率和中等电阻，Kanthal通常用于烤面包机和加热器！"
 				""
-				"&oBet you didn't expect your toaster to be at &bMV&f before you!"
+				"&o我敢打赌你没想到你的烤面包机会在 &bMV&f 面前！"
 			]
 			id: "66805BB78A828C00"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "That's just how I FeAlCr"
+			subtitle: "这就是我FeAlCr的方式"
 			tasks: [{
 				id: "76206DC9E7ABD07A"
 				item: "gtceu:kanthal_ingot"
@@ -135,17 +135,17 @@
 		}
 		{
 			dependencies: ["6958029B5514D4EC"]
-			description: ["Nichrome will require your &aElectric Blast Furnace&r to be at least &6HV&r, with &bKanthal&r coils to boot."]
+			description: ["镍铬合金需要你的 &a电动高炉&r 至少为 &6HV&r，并且还需要 &bKanthal&r 线圈。"]
 			id: "1CBA5477CB7C45E7"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Operation Nichrome Dome"
+			subtitle: "镍铬穹顶操作"
 			tasks: [{
 				id: "1104AC52E0A0A472"
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			title: "Nichrome"
+			title: "镍铬合金"
 			x: 0.5d
 			y: -6.5d
 		}
@@ -154,11 +154,11 @@
 				"2F9D9AAB27E6534D"
 				"0B25A282F677744B"
 			]
-			description: ["You're gonna need to start on your &dPlatinum&r processing, or \"&bPlatline&r\", if you want to get your hands on these."]
+			description: ["你需要开始处理你的 &d铂金&r，或者说 \"&b铂线&r\"，如果你想得到这些。"]
 			id: "3856DBCCAA6D2A58"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Tungstensteel is dead, long live RTM"
+			subtitle: "钨钢已死，RTM万岁"
 			tasks: [{
 				id: "76DE4924186D83C2"
 				item: "gtceu:rtm_alloy_ingot"
@@ -168,6 +168,6 @@
 			y: -6.5d
 		}
 	]
-	subtitle: ["Coil Headed"]
-	title: "Heating Coils"
+	subtitle: ["线圈头"]
+	title: "加热线圈"
 }

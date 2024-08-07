@@ -260,6 +260,6 @@
 		}
 	]
 	quests: [ ]
-	subtitle: ["A handy reference of all the multiblocks"]
-	title: "Multiblock Dilemma"
+	subtitle: ["所有多方块的便捷参考"]
+	title: "多方块困境"
 }
