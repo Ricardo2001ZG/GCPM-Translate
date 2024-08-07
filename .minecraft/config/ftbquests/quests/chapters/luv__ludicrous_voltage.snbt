@@ -74,15 +74,15 @@
 				"1783D89CE81C8E2E"
 			]
 			description: [
-				"The &aAdvanced Processing Array&r was an upgrade to the regular version. It could handle a maximum of &a64&r machines, instead of 16."
+				"&a高级处理阵列&r 是常规版本的升级版。它可以处理最多 &a64&r 台机器，而不是 16 台。"
 				""
-				"As with the Processing Array, this machine &4won't be making it&r into future versions of the mod. You can skip this quest with the checkmark."
+				"与处理阵列一样，这台机器 &4不会被&r 引入未来版本的模组。您可以通过勾选跳过此任务。"
 			]
 			icon: "gtceu:luv_processing_array"
 			id: "4194EC9F1C6632E4"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Your blue cube would now have been green!"
+			subtitle: "您的蓝色立方体现在将是绿色的！"
 			tasks: [
 				{
 					id: "356EC5387BA79103"
@@ -95,7 +95,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Advanced Processing Array"
+			title: "高级处理阵列"
 			x: 1.125d
 			y: 0.0d
 		}
@@ -105,9 +105,9 @@
 				"78277DBC07D3C45C"
 			]
 			description: [
-				"The &aUHPIC&r unlocks &3ZPM Energy Hatches&r and &3Dynamos&r, as well as the Active Transformer. "
+				"&aUHPIC&r 解锁了 &3ZPM 能量口&r 和 &3发电机&r，以及主动变压器。"
 				""
-				"You may know the drill, but do you know the screwdriver?"
+				"您可能知道钻头，但您知道螺丝刀吗？"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:uhpic_chip"
@@ -126,27 +126,27 @@
 					type: "item"
 				}
 			]
-			title: "Ultra High Power Integrated Circuit"
+			title: "超高功率集成电路"
 			x: 2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["00C14E3B8009DF7F"]
 			description: [
-				"&3Dielectric PCB Coolant&r is used for highly advanced late and end-game machinery."
+				"&3介电 PCB 冷却剂&r 用于高度先进的后期和终极游戏机械。"
 				""
-				"You only need a little bit in &dLuV&r, but you'll want to automate it when you get to &cZPM&r."
+				"在 &dLuV&r 中只需要一点，但在到达 &cZPM&r 时，您会想要自动化它。"
 			]
 			id: "35549F0404C87BCA"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Absolutely beneficial for the environment"
+			subtitle: "绝对有利于环境"
 			tasks: [{
 				id: "10FAF765725C7790"
 				item: "gtceu:pcb_coolant_bucket"
 				type: "item"
 			}]
-			title: "Dielectric PCB Coolant"
+			title: "介电 PCB 冷却剂"
 			x: 2.25d
 			y: 1.125d
 		}
@@ -157,22 +157,22 @@
 				"5ED7707B0ECF2207"
 			]
 			description: [
-				"The &3Active Transformer&r is a multiblock used to transform energy on a much larger scale. For example, you can convert &6HV&r to &7LV&r power directly by using the apropriate energy hatches."
+				"&3主动变压器&r 是一个多块结构，用于在更大规模上转换能量。例如，您可以通过使用适当的能量口将 &6HV&r 直接转换为 &7LV&r 电力。"
 				""
-				"It also has a second function, detailed in the above quest."
+				"它还有第二个功能，在上面的任务中详细说明。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet another feature from TecTech, which also required these cables to be painted. They too look fantastic if you paint them, but it is again optional."
+				"&l&3背景故事:&r&o 这是 TecTech 的又一个功能，它还需要将这些电缆涂漆。如果您给它们上色，它们看起来也很棒，但这又是可选的。"
 			]
 			id: "1AD003487B4EC2EF"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "More than a large transformer"
+			subtitle: "不仅仅是一个大型变压器"
 			tasks: [{
 				id: "39CDBE6B4B973868"
 				item: "gtceu:active_transformer"
 				type: "item"
 			}]
-			title: "Active Transformer"
+			title: "主动变压器"
 			x: 3.375d
 			y: 0.0d
 		}
@@ -183,96 +183,96 @@
 				"52D952ADBEB67454"
 			]
 			description: [
-				"The &3Data Bank&r is a multiblock capable of storing huge amounts of data. You can fill it with &aData Access Hatches&r, and fill those with &aData Storage Items&r."
+				"&3数据银行&r 是一个多块结构，能够存储大量数据。您可以用 &a数据访问口&r 填充它，并用 &a数据存储项目&r 填充这些口。"
 				""
-				"After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through &3Optical Fiber Cables&r, which can be used to link &3Optical Data Hatches together&r."
+				"之后，您需要电力，然后需要一种方法将其连接到您的装配线！这是通过 &3光纤电缆&r 完成的，可以用来将 &3光学数据口连接在一起&r。"
 				"{@pagebreak}"
-				"An &9Optical Transmission Hatch&r is used to send data (like an output), and an &9Optical Reception Hatch&r to recieve the data (like an input). "
+				"&9光学传输口&r 用于发送数据（如输出），而 &9光学接收口&r 用于接收数据（如输入）。"
 				""
-				"Optical cables have some restrictions however. They can only connect &eone input to one output&r. The Data Bank is a solution to this, since you can place many hatches on them to route in different directions."
+				"不过，光缆有一些限制。它们只能连接 &e一个输入到一个输出&r。数据银行是解决方案，因为您可以在其上放置多个口，以便向不同方向路由。"
 				""
-				"You can use this behavior to &echain&r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!"
+				"您可以利用这种行为 &echain&r 数据银行。将一个数据银行连接到另一个，然后将其中一个连接到装配线，将提供两个银行的数据！"
 				"{@pagebreak}"
-				"&eNote: &rThis multiblock will be required later on in progression, but is very useful to set up early."
+				"&e注意:&r 此多块结构将在后期进展中必需，但在早期设置非常有用。"
 				""
-				"&l&3Lore:&r&o This multiblock also originates from TecTech, but part of its mechanics required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!"
+				"&l&3背景故事:&r&o 此多块结构也起源于 TecTech，但其部分机制也需要将光缆涂漆。您在这里不必这样做，但如果您这样做，看起来真的很好！"
 			]
 			id: "42760D3A86EFDCA3"
 			size: 0.75d
-			subtitle: "Time for a server room"
+			subtitle: "是时候建立一个服务器机房了"
 			tasks: [{
 				id: "01188385BE2DB3B3"
 				item: "gtceu:data_bank"
 				type: "item"
 			}]
-			title: "Mass Data Storage"
+			title: "大数据存储"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1AD003487B4EC2EF"]
 			description: [
-				"The &3Active Transformer&r has a second use - &6Laser Power&r. Lasers are like superconductors, but behave slightly differently. They share the energy input across all connected active transformers, allowing widespread power distribution. You can use &3Active Transformers&r to convert regular EU to and from Lasers."
+				"&3主动变压器&r 有第二个用途 - &6激光动力&r。激光就像超导体，但行为略有不同。它们在所有连接的主动变压器之间共享能量输入，从而实现广泛的电力分配。您可以使用 &3主动变压器&r 将常规 EU 转换为激光，并反之亦然。"
 				""
-				"Like optical cables, they can only be connected to &eone input and output&r. But, these ones also only can move in &estraight lines&r. To turn them, an &3Active Transformer&r with a Laser Source Hatch (output) and Target Hatch (input) is needed."
+				"与光缆一样，它们只能连接到 &e一个输入和输出&r。但这些也只能沿着 &estraight lines&r 移动。要转弯，需要一个带有激光源口（输出）和目标口（输入）的 &3主动变压器&r。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This is yet again another TecTech feature, but there's a bit more to it this time. TecTech's lasers were tiered by voltage and carried thousands of amps instead. CEu doesn't faff around with any of that tiering. You only need one type of laser here!"
+				"&l&3背景故事:&r&o 这是又一个 TecTech 功能，但这次有更多内容。TecTech 的激光按电压分级，并携带数千安培。CEu 不会在任何分级上浪费时间。您这里只需要一种类型的激光！"
 			]
 			id: "07159FCD9744DD98"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Time for some lasers!"
+			subtitle: "是时候来点激光了！"
 			tasks: [{
 				id: "3BA3AA8746044DC1"
 				item: "gtceu:normal_laser_pipe"
 				type: "item"
 			}]
-			title: "Laser Power Transmission"
+			title: "激光功率传输"
 			x: 3.375d
 			y: -1.125d
 		}
 		{
 			dependencies: ["78277DBC07D3C45C"]
 			description: [
-				"Doping &9Silicon&r with &9Naquadah&r will give a better &aSilicon Boule&r."
+				"掺杂 &9硅&r 与 &9钠夸达&r 将获得更好的 &a硅块&r。"
 				""
-				"Use it for higher yield on &dWafers&r."
+				"将其用于提高 &d晶圆&r 的产量。"
 				""
-				"This will also unlock the &6best recipe&r for &6HV&r Circuits in the &3LuV Circuit Assembler&r. You're probably going to want to mass produce these for the many &dLapotronic Energy Orbs&r that'll be required moving forwards."
+				"这还将解锁 &6最佳配方&r 用于 &6HV&r 电路在 &3LuV 电路组装器&r 中。您可能会想要大规模生产这些，以满足未来所需的许多 &d拉波特罗尼克能量球&r。"
 			]
 			id: "3F31E99D0284A60A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Doper than ever before"
+			subtitle: "比以往更强"
 			tasks: [{
 				id: "2F8C92A86CAF338F"
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			title: "Naquadah-doped Silicon Boule"
+			title: "钠夸达掺杂硅块"
 			x: 0.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["7A1E3C3A2D699C5B"]
 			description: [
-				"&aNaquadah&r is a late-game material with a variety of uses. It is required when building a Fusion Reactor and progressing to &cZPM&r, to name a few."
+				"&a钠夸达&r 是一种后期材料，具有多种用途。它在建造聚变反应堆和进展到 &cZPM&r 时是必需的。"
 				""
-				"For some reason, its fluid is a brilliant &agreen&r - don't ask us why."
+				"出于某种原因，它的液体是辉煌的 &agreen&r - 不要问我们为什么。"
 				""
-				"&l&3Lore:&r&o Naquadah is a material originally from Stargate."
+				"&l&3背景故事:&r&o 钠夸达是一种最初源于《星际之门》的材料。"
 			]
 			hide_dependency_lines: true
 			id: "78277DBC07D3C45C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Don't you mean Stargatium?"
+			subtitle: "难道你不是在说星际材料吗？"
 			tasks: [{
 				id: "36833D5050F81992"
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			title: "Naquadah"
+			title: "钠夸达"
 			x: 1.125d
 			y: 1.125d
 		}
@@ -282,24 +282,24 @@
 				"7A1E3C3A2D699C5B"
 			]
 			description: [
-				"&aNaquadah Coils&r crank up the Heat Capacity to &d7,200K&r."
+				"&a钠夸达线圈&r 将热容量提升至 &d7,200K&r。"
 				""
-				"These coils are required for progressing to the second half of &dLuV&r and beyond."
+				"这些线圈是进展到 &dLuV&r 后半部分及更高阶段所必需的。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Well... not some \"juicy GregTech lore\", but a cool space fact, owing to the fact you're beating the Sun's temperature with your EBF. The surface temperature of the Sun is 5,800K. We're taking this as an effective temperature - i.e. the radiative temperature of the Sun as if it were a perfectly \"black body\". Check out the Stefan-Boltzmann law if you're interested in some crude astrophysics."
+				"&l&3背景故事:&r&o 好吧...并不是一些\"诱人的 GregTech 背景故事\"，而是一个酷炫的太空事实，归因于您正在用 EBF 超越太阳的温度。太阳的表面温度为 5,800K。我们将其视为有效温度 - 即太阳的辐射温度，仿佛它是一个完美的\"黑体\"。如果您对一些粗略的天体物理学感兴趣，可以查看斯特凡-玻尔兹曼定律。"
 				""
-				"&oOh, and the \"photosphere\" (the part of the sun we're talking about when we mention its surface)? It's 400 kilometres thick. That's 250 miles. Damn!"
+				"&o哦，\"光球层\"（我们提到太阳表面时所指的部分）？它厚约 400 公里。也就是 250 英里。真是太棒了！"
 			]
 			id: "2FCBA0D780DBDA9E"
 			size: 0.75d
-			subtitle: "Hotter than the surface temperature of the Sun!"
+			subtitle: "比太阳表面温度还热！"
 			tasks: [{
 				count: 16L
 				id: "28332FC9FCA83E41"
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			title: "Naquadah Coils"
+			title: "钠夸达线圈"
 			x: 3.375d
 			y: 1.125d
 		}
@@ -309,85 +309,85 @@
 				"2FCBA0D780DBDA9E"
 			]
 			description: [
-				"&aLuV Superconductors&r are necessary if you're eyeing a &9Fusion Reactor&r. "
+				"&aLuV 超导体&r 是如果您打算建造 &9聚变反应堆&r 的必要材料。"
 				""
-				"Don't ignore our warning here - you're gonna need &ea lot&r&r of them. Luckily, any &5Indium&r shortages will be solved by your Naquadah line."
+				"不要忽视我们的警告 - 您将需要 &ea lot&r&r 的它们。幸运的是，任何 &5铟&r 短缺将由您的钠夸达生产线解决。"
 			]
 			id: "5ED7707B0ECF2207"
 			size: 0.75d
-			subtitle: "Be glad these don't use pumps"
+			subtitle: "很高兴这些不需要泵"
 			tasks: [{
 				id: "10FB849CE994B1A5"
 				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
 				type: "item"
 			}]
-			title: "LuV Superconductors"
+			title: "LuV 超导体"
 			x: 4.5d
 			y: 1.125d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&cWarning&r: &9Plasmas&r are &cextremely hot&r, with temperatures exceeding &d30k Kelvin&r! "
+				"&c警告&r: &9等离子体&r 是 &cextremely hot&r 的，温度超过 &d30k 开尔文&r！"
 				""
-				"However, this &6&ldoesn't&r mean that a special type of pipe is required to transport plasma. Plasmas are treated slightly differently, and bend the rules a bit."
+				"然而，这并不意味着运输等离子体需要特殊类型的管道。等离子体的处理略有不同，并稍微打破规则。"
 				""
-				"Fluid pipes that can handle plasmas, such as &aTungsten&r, &aNaquadah&r, or &aDuranium&r can hold any plasma &6regardless of temperature&r. This means they &lwon't&r melt under the heat of the plasma!"
+				"能够处理等离子体的流体管道，如 &a钨&r、&a钠夸达&r 或 &a杜拉尼姆&r，可以承受任何等离子体 &6无论温度如何&r。这意味着它们 &l不会&r 在等离子体的高温下熔化！"
 				""
-				"WARNING:&r Plasmas in incompatible pipes will cause &cvoiding&r, &cpipe burning&r, and &ldisproportionately high&r rates of &cdeath&r. Be careful!"
+				"警告:&r 不兼容管道中的等离子体将导致 &cvoiding&r、&c管道燃烧&r 和 &ldisproportionately high&r 的 &c死亡&r 率。小心！"
 				""
-				"&l&3Lore:&r&o This mechanic originates from GT6, just like the acids!"
+				"&l&3背景故事:&r&o 此机制起源于 GT6，就像酸一样！"
 			]
 			icon: "gtceu:argon_plasma_bucket"
 			id: "173C1FA72301B5E7"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The stars are calling..."
+			subtitle: "星星在召唤..."
 			tasks: [{
 				id: "062ECB2F9C9D741D"
 				type: "checkmark"
 			}]
-			title: "Fluid of the Stars"
+			title: "星之流体"
 			x: 5.625d
 			y: 1.125d
 		}
 		{
 			dependencies: ["173C1FA72301B5E7"]
 			description: [
-				"Use this turbine to extract very large amounts of power from plasma!"
+				"使用这个涡轮机从等离子体中提取大量能量！"
 				""
-				"&aHelium Plasma&r is the best fuel for its cost."
+				"&a氦等离子体&r 是最具成本效益的燃料。"
 				""
-				"If you're the type to question how realistic Plasma Turbines are... look up Magnetohydrodynamic Generators if you want something that bends fact into fiction."
+				"如果您是那种质疑等离子体涡轮机现实性的人...查找电磁流体动力发电机，如果您想要一些将事实弯曲成虚构的东西。"
 			]
 			id: "4E9DED9569AA17F5"
 			size: 0.75d
-			subtitle: "Plasma? Turbine?! How?"
+			subtitle: "等离子体？涡轮机？！怎么可能？"
 			tasks: [{
 				id: "13230F892A8F6FA1"
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			title: "Large Plasma Turbine"
+			title: "大型等离子体涡轮机"
 			x: 6.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
 			description: [
-				"This is the main material for &cZPM&r. Having this in stock will be a test of your Platinum processing, so this is a &6pre-emptive warning&r to stay on top of mining PGS-bearing ore."
+				"这是 &cZPM&r 的主要材料。拥有这一点将考验您的铂金加工，因此这是一个 &6预警&r，以保持对 PGS 矿石的开采。"
 				""
-				"Prepare to make lots... after you make &9Fusion&r and &9Crystal Circuits&r. Tackle those before you try making this."
+				"准备制作大量...在您制作 &9聚变&r 和 &9水晶电路&r 之后。先处理这些，然后再尝试制作这个。"
 			]
 			id: "24F0454B9A090C44"
 			size: 0.75d
-			subtitle: "Stargate's Strongest"
+			subtitle: "星际之门的最强材料"
 			tasks: [{
 				id: "16895659E44B65B5"
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			title: "Naquadah Alloy"
+			title: "钠夸达合金"
 			x: 0.0d
 			y: 2.25d
 		}
@@ -397,42 +397,40 @@
 				"48DEABA155605D23"
 			]
 			description: [
-				"Refining &9Naquadah&r into further products will be your next automation challenge. The primary resources are &aEnriched Naquadah&r, &aNaquadria&r, and &aTrinium&r. "
+				"将 &9钠夸达&r 精炼成进一步产品将是您下一个自动化挑战。主要资源是 &a富集钠夸达&r、&a钠夸达石&r 和 &a铂金&r。"
 				""
-				"This processing line - affectionately known as the \"Naqline\" - also produces many useful byproducts, such as Titanium and Indium."
+				"这个加工线 - 可爱地称为 \"钠线\" - 还会生产许多有用的副产品，如钛和铟。"
 				"{@pagebreak}"
-				"&aEnriched Naquadah&r currently isn't used for much, but will be integral to power generation in the future."
+				"&a富集钠夸达&r 目前用途不多，但将来在发电中将是不可或缺的。"
 				""
-				"&aNaquadria&r is a lategame material that you'll want to stockpile for your &3UV&r components."
-				""
-				"&aTrinium&r is the material you'll be wanting most right now. You'll use a lot of it to build your first Fusion Reactor, is used for the next set of Coils, and sees heavy usage in most &cZPM&r recipes."
+				"&a钠夸达石&r 是您现在最想要的材料。您将大量使用它来建造您的第一个聚变反应堆，用于下一组线圈，并在大多数 &cZPM&r 配方中大量使用。"
 				"{@pagebreak}"
-				"&eNote&r: This processing chain presents more of a challenge than any chemistry you've dealt with so far."
+				"&e注意&r: 此加工链比您迄今为止处理的任何化学过程都更具挑战性。"
 				""
-				"As usual, outputs in later steps can be sent back into previous processes... with the caveat that they lose a small amount of fluid with each loop."
+				"与往常一样，后续步骤中的输出可以送回之前的过程...但每次循环都会失去少量流体。"
 				""
-				"This can be challenging to automate. Good luck!"
+				"这可能很难自动化。祝您好运！"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Many GregTech iterations have Naquadah processing. "
+				"&l&3背景故事:&r&o 许多 GregTech 迭代都有钠夸达加工。"
 				""
-				"&oThe first was likely Impact, with its own original Naquadah fuel process. "
+				"&o 第一个可能是 Impact，其自己的钠夸达燃料过程。"
 				""
-				"&oGregicality Legacy was hot on its heels with processes for making the Naquadah material (and variants) as well as Fuel. "
+				"&o Gregicality Legacy 紧随其后，处理制造钠夸达材料（及其变体）以及燃料。"
 				""
-				"&oAfter that, GTNH added their own Naquadah processes for the material and fuel. "
+				"&o 之后，GTNH 添加了自己的钠夸达材料和燃料加工。"
 				""
-				"&oLastly, GTCEu added the process you're about to set up!"
+				"&o 最后，GTCEu 添加了您即将建立的过程！"
 			]
 			icon: "gtceu:naquadah_dust"
 			id: "378F0AFCF95354B2"
 			size: 0.75d
-			subtitle: "Do not touch the acid"
+			subtitle: "不要碰酸"
 			tasks: [{
 				id: "1D674C3951223E8C"
 				item: "gtceu:fluoroantimonic_acid_bucket"
 				type: "item"
 			}]
-			title: "Naquadah Chain"
+			title: "钠夸达链"
 			x: 1.125d
 			y: 2.25d
 		}
@@ -443,17 +441,17 @@
 				"00C14E3B8009DF7F"
 			]
 			description: [
-				"&aTrinium&r is a very important material for progression. You'll need it to make a &9Fusion Reactor&r, but it stays relevant all throughout &cZPM&r. We &7(well, this particular questbook writer!)&r can never have enough of this stuff."
+				"&a铝锆合金&r 是进展的一个非常重要的材料。您将需要它来制造 &9聚变反应堆&r，但在整个 &cZPM&r 期间仍然相关。我们 &7（好吧，这个特定的任务书作者！）&r 从来没有足够的这种东西。"
 				""
-				"It also requires an &dLuV&r EBF to smelt! Perhaps dedicate a setup solely for cooking this, unless you're confident that your infrastructure can deal with it."
+				"它还需要一个 &dLuV&r EBF 来熔炼！也许专门为此设置一个装置，除非您确信您的基础设施能够处理它。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Stargate, Trinium was strong enough to block a point-blank C4 explosion. It's considered to be a hundred times stronger than steel, at only one-hundreth the weight."
+				"&l&3背景故事:&r&o 在《星际之门》中，铝锆合金足够强大，可以阻挡近距离 C4 爆炸。它被认为比钢强一百倍，而重量仅为其百分之一。"
 			]
 			icon: "gtceu:trinium_ingot"
 			id: "0DC999F79A685194"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Another Stargate material!"
+			subtitle: "又一个星际之门材料！"
 			tasks: [
 				{
 					id: "48F555D3FC7EA449"
@@ -467,29 +465,29 @@
 					type: "item"
 				}
 			]
-			title: "Trinium"
+			title: "铝锆合金"
 			x: 3.375d
 			y: 2.25d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"&aPlutonium-241&r is yet another requirement for the &9Fusion Reactor&r. It's very easy to make: just centrifuge some &9Pu-239&r to slowly separate some out."
+				"&a钚-241&r 是 &9聚变反应堆&r 的另一个要求。它非常容易制造：只需离心一些 &9Pu-239&r，慢慢分离出一些。"
 				""
-				"In the future, this material will require a &dNuclear Reactor&r to produce, but that's not in GTCEu yet."
+				"在未来，这种材料将需要一个 &d核反应堆&r 来生产，但这在 GTCEu 中尚不存在。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GT Impact, making Pu-241 was a challenge. Your first Pu-241 had to be produced as a byproduct of its very expensive Naquadah fuel process, and it could only be made independently with something post-fusion!"
+				"&l&3背景故事:&r&o 在 GT Impact 中，制造 Pu-241 是一项挑战。您必须将第一个 Pu-241 作为其非常昂贵的钠夸达燃料过程的副产品生产，而它只能在融合后独立制造！"
 			]
 			id: "2BBD3BC7D1B955C2"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Spicy Plutonium Isotope"
+			subtitle: "辛辣的钚同位素"
 			tasks: [{
 				id: "757053C4979D8B08"
 				item: "gtceu:plutonium_241_dust"
 				type: "item"
 			}]
-			title: "Plutonium-241"
+			title: "钚-241"
 			x: 4.5d
 			y: 2.25d
 		}
@@ -502,80 +500,80 @@
 				"327C3E02CD751453"
 			]
 			description: [
-				"First things first- build the version of the structure that's displayed with Fusion Glass in &aJEI&r."
+				"首先 - 构建带有融合玻璃的结构版本，该结构在 &aJEI&r 中显示。"
 				""
-				"To save on &3Fusion Casings&r, fit Input/Output Hatches wherever you can (as displayed in the structure)."
+				"为了节省 &3融合外壳&r，尽可能适配输入/输出口（如结构中所示）。"
 				""
-				"This time, we'll try something new: let's explain the Lore at the same time as the mechanics."
+				"这次，我们尝试一些新东西：让我们同时解释背景故事和机制。"
 				""
-				"Enjoy the ride!"
+				"享受这段旅程！"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GregTech 5's &3Fusion Reactor&f stores EU you feed it in its internal buffer. The maximum storable amount is determined by the amount of &3Energy Hatches&f."
+				"&l&3背景故事:&r&o GregTech 5 的 &3聚变反应堆&f 将您提供的 EU 存储在其内部缓冲区中。最大可存储量由 &3能量口&f 的数量决定。"
 				""
-				"&oRecipes can only start if the &9EU to start&f is stored internally, which will be &cconsumed&f. With this stored energy, the reactor can keep running recipes until it goes idle. At this point it will need to be topped up on EU to start again."
+				"&o配方只能在内部存储 &9EU to start&f 时开始，这将被 &c消耗&f。通过存储的能量，反应堆可以持续运行配方，直到它处于空闲状态。这时它需要补充 EU 才能再次启动。"
 				"{@pagebreak}"
-				"&oShadow of Greg's &3Fusion Reactor&f (which is now GTCEu's Fusion Reactor) comes with an added mechanic called &4Heat&f."
+				"&o Greg 的 &3聚变反应堆&f（现在是 GTCEu 的聚变反应堆）带有一个名为 &4热量&f 的附加机制。"
 				""
-				"&oWhen the reactor is running, the &9EU to start&f is converted to &4Heat&f. That Heat is preserved until the Reactor goes idle, at which point it will slowly go down."
+				"&o 当反应堆运行时，&9EU to start&f 被转换为 &4热量&f。该热量在反应堆空闲之前会被保留，此时会慢慢降低。"
 				""
-				"&oNext time a recipe is found, it will use all possible Heat and deduct it from the &9EU to start&f, allowing you to save Energy for short pauses."
+				"&o 下次找到配方时，它将使用所有可能的热量，并从 &9EU to start&f 中扣除，从而允许您为短暂停顿节省能量。"
 				""
-				"&oThe &3Fusion Reactor I&f can only run recipes up to a required EU of 160 MEU to start. It will also overclock up to &dLuV&f at best, even if you upgrade to ZPM Hatches, so don't stress over attempting this."
+				"&o &3聚变反应堆 I&f 只能运行所需 EU 为 160 MEU 的配方。即使您升级到 ZPM 口，它也将最多超频至 &dLuV&f，因此请不要担心尝试此操作。"
 			]
 			id: "546CC03435E763CF"
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Stellar power"
+			subtitle: "星际能量"
 			tasks: [{
 				id: "48A4D39ED0E11EBC"
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor I"
+			title: "聚变反应堆 I"
 			x: 5.625d
 			y: 2.25d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&aEuropium&r is the first major Fusion Material. You'll be using this quite a lot going forwards."
+				"&a铕&r 是第一个主要的聚变材料。您将在接下来的过程中使用它。"
 				""
-				"&eNote&r: The temperature of liquid Europium is very hot, but the fluid isn't a plasma. Plan your piping accordingly!"
+				"&e注意&r: 液态铕的温度非常高，但液体不是等离子体。请相应规划您的管道！"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, Europium was replaced with Rutherfordium as the first fusion material, because Europium is actually found in Rare Earth and isn't fused in real life."
+				"&l&3背景故事:&r&o 在 Gregicality Legacy 中，铕被铷替代为第一个聚变材料，因为铕实际上是在稀土中找到的，并且在现实生活中并不是通过融合获得的。"
 			]
 			id: "7A74F692F14F0FF8"
 			shape: "gear"
 			size: 1.1d
-			subtitle: "Fusing Europium... how?!"
+			subtitle: "如何融合铕呢？！"
 			tasks: [{
 				id: "220305C9DA0F512B"
 				item: "gtceu:europium_ingot"
 				type: "item"
 			}]
-			title: "Europium"
+			title: "铕"
 			x: 6.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["7A74F692F14F0FF8"]
 			description: [
-				"&aCrystal CPUs&r are used to produce &9Crystal Circuits&r - who would have thought?"
+				"&a水晶 CPU&r 用于生产 &9水晶电路&r - 谁会想到？"
 				""
-				"Producing these is quite a bit different from the previous circuit components. Instead of standard silicon wafers, these rely on &9Emerald&r or &9Olivine&r."
+				"生产这些与之前的电路组件有所不同。与标准硅晶圆不同，这些依赖于 &9翡翠&r 或 &9橄榄石&r。"
 				""
-				"Getting your first Crystal Chips will be difficult, so you may wish to invest in a high-tier Autoclave. If you use a &6HV&r Autoclave... well, we didn't take you for the gambling sort."
+				"获得您的第一个水晶芯片将是困难的，因此您可能希望投资于高等级的自压机。如果您使用 &6HV&r 自压机... 好吧，我们并没有把您当作赌徒。"
 				""
-				"After you get your first Chip, you can duplicate them with &9Europium&r. Don't worry about those other recipes yet, they're for later on in &cZPM&r."
+				"在您获得第一个芯片后，您可以用 &9铕&r 复制它们。现在不必担心其他配方，它们是后期 &cZPM&r 的。"
 				"{@pagebreak}"
-				"&eNote&r: An &9Advanced Item Detector&r cover will be useful for automating these. They work just like the Advanced Energy Detector."
+				"&e注意&r: 一个 &9高级物品探测器&r 覆盖将对自动化这些非常有用。它们的工作方式与高级能量探测器相同。"
 				""
-				"&l&3Lore:&r&o In GT5u modpacks, making your first Crystal Chips required the autoclave to be in Low Gravity, which meant doing this process on a Galacticraft Space Station, or on the moon!"
+				"&l&3背景故事:&r&o 在 GT5u 模组包中，制作第一个水晶芯片需要将自压机放置在低重力下，这意味着在 Galacticraft 太空站或月球上进行此过程！"
 			]
 			icon: "gtceu:crystal_cpu"
 			id: "764091A111FB4DA6"
 			size: 0.75d
-			subtitle: "These don't even make any sense!"
+			subtitle: "这些根本没有意义！"
 			tasks: [
 				{
 					id: "3B9666A5C3CBDCD6"
@@ -588,7 +586,7 @@
 					type: "item"
 				}
 			]
-			title: "Crystal CPU"
+			title: "水晶 CPU"
 			x: 7.875d
 			y: 2.25d
 		}
@@ -598,11 +596,11 @@
 				"4F6E351C5F676618"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r an &3LuV Energy Hatch&r&r... or an &3LuV Dynamo Hatch&r for your Multiblock Generators."
+				"本任务将通过 &eeither&r 一个 &3LuV 能量口&r&r... 或者一个 &3LuV 发电机口&r 为您的多块发电机完成。"
 				""
-				"Starting at &dLuV&r, you'll start upgrading more multiblocks, which means more energy hatches! Both the &9EBF&r and the &9Assembly Line&r will need power upgrades."
+				"从 &dLuV&r 开始，您将开始升级更多多块结构，这意味着更多的能量口！ &9EBF&r 和 &9装配线&r 都需要电力升级。"
 				""
-				"Don't forget that &d4 Amp&r variants exist!"
+				"不要忘记，&d4 安培&r 变体是存在的！"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:luv_energy_input_hatch"
@@ -621,7 +619,7 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line"
+			title: "升级您的装配线"
 			x: 2.25d
 			y: 2.25d
 		}
@@ -630,26 +628,26 @@
 				"77B7B1EDD19831E0"
 				"46C7E1D5E37B1ED2"
 			]
-			description: ["The &aWireless Connector&r will help with logistics, giving &9Wireless Transfer&r for your ME Network with unlimited range. The energy cost scales exponentially with transfer distance."]
+			description: ["&a无线连接器&r 将帮助物流，为您的 ME 网络提供 &9无线传输&r，具有无限范围。能量成本与传输距离成指数级增长。"]
 			id: "7E2076D45F83D9C3"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "To infinity, and beyond!"
+			subtitle: "到达无限，超越一切！"
 			tasks: [{
 				id: "3AC7E29D373750F8"
 				item: "expatternprovider:wireless_connect"
 				type: "item"
 			}]
-			title: "Wireless Range"
+			title: "无线范围"
 			x: 3.375d
 			y: 4.5d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"If recipe sizes are starting to worry you, don't worry - &2AE2&r now allows you to place an unlimited amount of items into a processing pattern."
+				"如果配方的大小开始让您担心，不用担心 - &2AE2&r 现在允许您将无限量的物品放入处理模式。"
 				""
-				"Thanks to this innovation, you can automate all the &3Assembly Line&r recipes."
+				"多亏了这一创新，您可以自动化所有 &3装配线&r 配方。"
 			]
 			icon: "expatternprovider:ex_interface"
 			id: "79192BA29BE69170"
@@ -657,44 +655,44 @@
 			size: 0.66d
 			tasks: [{
 				id: "3DFCDF1B24506A8A"
-				title: "Wahey!"
+				title: "哇哦！"
 				type: "checkmark"
 			}]
-			title: "PackagedWho?"
+			title: "打包谁？"
 			x: 3.375d
 			y: 5.625d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"At the cost of 16x the drilling Power, the &3Advanced Fluid Drilling Rig II&r will be gaining &664x the output&r in Fluid."
-				"The depletion of veins is also slashed to an eighth of what it was before. This means you will get a total of &6128x&r as much Oil (or whatever fluid) as the regular rig from a bedrock fluid vein until depletion!"
+				"以 16 倍的钻探能力为代价，&3高级流体钻井机 II&r 将获得 &664 倍的输出&r。"
+				"对矿脉的耗尽也被削减到之前的八分之一。这意味着您将从基岩流体矿脉中获得总共 &6128 倍&r 的石油（或任何流体），直到耗尽！"
 				""
-				"Even when depleted, you can safely use this and be very much power positive."
+				"即使在耗尽时，您也可以安全地使用它，并且会非常积极地获得电力。"
 				""
-				"One single &3Advanced Fluid Drilling Rig II&r should be enough to last you until the end of the game, for whatever fluid you drill."
+				"一台 &3高级流体钻井机 II&r 应该足够让您在游戏结束之前使用，适用于您钻探的任何流体。"
 			]
 			id: "4AEAC79007790BD8"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "This thing is completely ludicrous!"
+			subtitle: "这东西完全荒谬！"
 			tasks: [{
 				id: "5904009DC40731D6"
 				item: "gtceu:ev_fluid_drilling_rig"
 				type: "item"
 			}]
-			title: "Ludicrous Fluid Drilling"
+			title: "荒谬的流体钻井"
 			x: 5.625d
 			y: 4.5d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"This Large Miner is nearly identical to the regular one, except it has a wider range and uses more drilling fluid."
+				"这个大型矿工几乎与常规矿工相同，只是它的范围更广，并且使用更多的钻探流体。"
 				""
-				"It's an optional sidegrade - one you might not even want."
+				"这是一个可选的侧重升级 - 您甚至可能不想要。"
 				""
-				"&l&3Lore:&r&o There may be a rebalance for these in the future. See the Multiblock Miner quest for details."
+				"&l&3背景故事:&r&o 将来可能会对这些进行重新平衡。有关详细信息，请参阅多块矿工任务。"
 			]
 			id: "1BE779AF4487E3EB"
 			shape: "rsquare"
@@ -704,7 +702,7 @@
 				item: "gtceu:luv_large_miner"
 				type: "item"
 			}]
-			title: "Ludicrous Ore Drilling"
+			title: "荒谬的矿石钻探"
 			x: 5.625d
 			y: 5.625d
 		}
@@ -715,14 +713,14 @@
 				"5B07279B08BF8DDE"
 			]
 			description: [
-				"The &aLuV Lapotronic Orb&r is even better than the &1IV&r one! Of course, such power comes at a steep cost..."
+				"&aLuV 拉波特罗尼克球&r 比 &1IV&r 的更好！当然，这样的力量是有代价的..."
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In older versions of GT, such as GTNH in the past or in GCYL, these orbs were ludicrously expensive! They required 8 orbs of the previous tier! Thankfully, those days are long past."
+				"&l&3背景故事:&r&o 在 GT 的早期版本中，例如 GTNH 或 GCYL，这些球的价格极其昂贵！它们需要 8 个前一级的球！感谢上天，那些日子已经一去不复返了。"
 			]
 			icon: "gtceu:lapotronic_energy_orb_cluster"
 			id: "0D7C978F9CDF771B"
 			size: 0.75d
-			subtitle: "Even more power!"
+			subtitle: "更多的能量！"
 			tasks: [
 				{
 					id: "6D1376BF3CEA87A7"
@@ -736,41 +734,41 @@
 					type: "item"
 				}
 			]
-			title: "Ludicrous Batteries"
+			title: "荒谬的电池"
 			x: 6.75d
 			y: 4.5d
 		}
 		{
 			dependencies: ["42CD789B8C40E424"]
-			description: ["Cheaper &dLuV&r circuits! These'll take some of the edge out of those brutal Robot Arm recipes."]
+			description: ["更便宜的 &dLuV&r 电路！这些将减少那些残酷的机器人臂配方的压力。"]
 			id: "47087361D6DE7DCF"
 			size: 0.75d
-			subtitle: "Yup... another circuit upgrade"
+			subtitle: "是的...又一个电路升级"
 			tasks: [{
 				id: "3CF7F369F390A3E5"
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			title: "Even more LuV Circuits"
+			title: "更多的 LuV 电路"
 			x: 7.875d
 			y: 4.5d
 		}
 		{
 			dependencies: ["47087361D6DE7DCF"]
 			description: [
-				"&cZPM&r Circuits that aren't mainframes!"
+				"&cZPM&r 电路不是主机！"
 				""
-				"Don't lie - &bCrystal Supercomputers&r sound really cool, right?"
+				"不要撒谎 - &b水晶超级计算机&r 听起来真的很酷，对吧？"
 			]
 			id: "7AE681E2AB31EA0D"
 			size: 0.75d
-			subtitle: "...wait, why'd things end here?"
+			subtitle: "...等等，为什么事情在这里结束了？"
 			tasks: [{
 				id: "0E274B445A95250A"
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			title: "More ZPM Circuits"
+			title: "更多 ZPM 电路"
 			x: 7.875d
 			y: 5.625d
 		}
@@ -779,17 +777,17 @@
 				"77B7B1EDD19831E0"
 				"7CFC112B8F460549"
 			]
-			description: ["The &aLuV Electric Prospector&r is a major upgrade from the &eHV&r one. With its huge range, it'll make finding Fluid and Ore veins very easy."]
+			description: ["&aLuV 电气勘探器&r 是 &eHV&r 的重大升级。凭借其巨大的范围，它将使寻找流体和矿石矿脉变得非常容易。"]
 			id: "7033A24F37F9B9B9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "If you're yet to strike gold, you will now"
+			subtitle: "如果您还没有找到黄金，您现在会找到"
 			tasks: [{
 				id: "718BA09242A22550"
 				item: "gtceu:prospector.luv"
 				type: "item"
 			}]
-			title: "LuV Prospector"
+			title: "LuV 勘探器"
 			x: 4.5d
 			y: 3.375d
 		}
@@ -800,30 +798,30 @@
 				"764091A111FB4DA6"
 			]
 			description: [
-				"The first circuit of the &9Crystal&r line."
+				"&9水晶&r 线路的第一个电路。"
 				""
-				"&l&3Lore:&r&o The concept of a Crystal Circuit has existed since the very early versions of GregTech. We're still not entirely sure if they exist in real life."
+				"&l&3背景故事:&r&o 水晶电路的概念早在 GregTech 的早期版本中就存在。我们仍然不完全确定它们是否在现实中存在。"
 			]
 			id: "42CD789B8C40E424"
 			size: 0.75d
-			subtitle: "I know where this is going!"
+			subtitle: "我知道这将如何发展！"
 			tasks: [{
 				id: "6357389871CE70C2"
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			title: "Best IV Circuits!"
+			title: "最佳 IV 电路！"
 			x: 7.875d
 			y: 3.375d
 		}
 		{
 			dependencies: ["0338C9219DC2F819"]
 			description: [
-				"If you say the name 3 times in front of a mirror, you summon a CEu dev."
+				"如果您在镜子前说三次这个名字，您将召唤一个 CEu 开发者。"
 				""
-				"&aMulti-Layer Fiber-Reinforced Printed Circuit Boards&r are the next step in your circuit journey. They're not particularly interesting compared to the previous boards: just two of the previous stuck together."
+				"&a多层纤维增强印刷电路板&r 是您电路旅程的下一步。与之前的电路板相比，它们并不是特别有趣：只是将两个之前的电路板粘在一起。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, these circuit boards were much more complicated. They required Kapton, a dual polymer material. It was a challenge to say the least. In the future, the GTCEu team might make these boards somewhat more involved to produce."
+				"&l&3背景故事:&r&o 在 Gregicality Legacy 中，这些电路板复杂得多。它们需要 Kapton，这是一种双聚合物材料。可以说这是一个挑战。在未来，GTCEu 团队可能会使这些电路板的生产变得更加复杂。"
 			]
 			id: "6C241455C5434C2E"
 			size: 0.75d
@@ -833,7 +831,7 @@
 				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			title: "Multi-Layer Fiber-Reinforced Printed Circuit Boards"
+			title: "多层纤维增强印刷电路板"
 			x: 9.0d
 			y: 3.375d
 		}
@@ -848,17 +846,17 @@
 				"3A7491323AC5C70C"
 			]
 			description: [
-				"&dLuV&r Components are significantly more difficult to produce than their predecessors. They require an &9Assembly Line&r, many different forms of materials, and lots of fluids too!"
+				"&dLuV&r 组件的生产难度显著高于其前身。它们需要一个 &9装配线&r、许多不同形式的材料和大量流体！"
 				""
-				"You will notice that &9Samarium&r is required for &aLuV+ Motors&r. Samarium by itself isn't very difficult to obtain, but smelting it is slightly more involved. It requires &9Liquid Helium&r in the Freezer. If you made &9IV Superconductors&r, you've likely seen this already."
+				"您会注意到 &9钐&r 是 &aLuV+ 电动机&r 的必需品。钐本身并不难获得，但冶炼起来稍微复杂。它需要在冷冻器中使用 &9液氦&r。如果您制作了 &9IV 超导体&r，您可能已经见过这个。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In the original GregTech 5, these components were unobtainable! You'd be free from GT if you were at this point! How times change."
+				"&l&3背景故事:&r&o 在原始 GregTech 5 中，这些组件是不可获得的！如果您达到这一点，您将摆脱 GT！时光荏苒。"
 			]
 			icon: "gtceu:luv_electric_motor"
 			id: "11D3B21A177B0E14"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Fun levels - critical"
+			subtitle: "乐趣等级 - 关键"
 			tasks: [
 				{
 					id: "0BA1015B5C7A0BD5"
@@ -896,116 +894,116 @@
 					type: "item"
 				}
 			]
-			title: "Pure Joy"
+			title: "纯粹的快乐"
 			x: 1.125d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0425179329ED1B72"]
-			description: ["A requirement for &dLuV&r+ cables."]
+			description: ["这是 &dLuV&r+ 电缆的要求。"]
 			id: "12FEE0A47E4658D5"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Cables need better coating now"
+			subtitle: "电缆现在需要更好的涂层"
 			tasks: [{
 				id: "4CAD2BE5558D7501"
 				item: "gtceu:polyphenylene_sulfide_foil"
 				type: "item"
 			}]
-			title: "Polyphenylene Sulfide"
+			title: "聚苯硫醚"
 			x: 0.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["4F6E351C5F676618"]
 			description: [
-				"The chances you are having TPS issues playing this modpack are slim - this Quest is more suited for late game bases with GregTech and AE2."
+				"您在玩这个模组包时遇到 TPS 问题的机会微乎其微 - 这个任务更适合与 GregTech 和 AE2 一起使用的后期基地。"
 				""
-				"If you run the command &9/forge tps&r, you will be given the current &4TPS&r and the &4tick time&r in milliseconds."
+				"如果您运行命令 &9/forge tps&r，您将获得当前的 &4TPS&r 和 &4tick time&r（毫秒）。"
 				""
-				"If the tick time exceeds 50ms, the server is under too much load, and won't be able to keep up with a steady 20 TPS."
+				"如果 tick time 超过 50 毫秒，服务器负载过重，将无法保持稳定的 20 TPS。"
 				""
-				"Any machine will add up to the tick time, but don't be too scared of adding machines. Most of the lag usually comes from things that are unoptimized."
+				"任何机器都会增加 tick time，但不要过于害怕增加机器。大多数的延迟通常来自未优化的内容。"
 				"{@pagebreak}"
-				"Things to &cavoid&r in general:"
+				"一般来说要 &c避免&r 的事情："
 				""
-				"&9-&r Entities are pretty bad. Ground items or mob entities should be kept as low as possible at any given time. Thankfully, this shouldn't be an issue in this modpack."
+				"&9-&r 实体是相当糟糕的。地面物品或生物实体在任何时候都应保持尽可能低的数量。幸运的是，这在这个模组包中不应该是问题。"
 				""
-				"&9-&r Building everything packed together in a small space. Note that this does &onot&r affect TPS, but you will suffer FPS drops instead."
+				"&9-&r 将所有内容紧凑地建造在小空间中。请注意，这并 &onot&r 影响 TPS，但您将遭受 FPS 降低。"
 				""
-				"&9-&r Huge walls of drawers, as iterating through every single one of them for insertion and extraction can be pretty taxing."
+				"&9-&r 大量抽屉的墙壁，因为迭代每一个抽屉进行插入和提取可能会非常繁重。"
 				"{@pagebreak}"
-				"Things to&c avoid&r with AE2:"
+				"与 AE2 一起要 &c避免&r 的事情："
 				""
-				"&9-&r ME Import and Export Buses on large networks. Use ME Interfaces instead."
+				"&9-&r 在大型网络上使用 ME 导入和导出总线。改用 ME 接口。"
 				""
-				"&9-&r Crafting Cards to passively do large requests."
+				"&9-&r 制作卡以被动进行大请求。"
 				""
-				"&9-&r Recursive insertion and/or extraction through sub-networks. If you use sub-networks, make them do very specific things rather than interacting with another AE2 network."
+				"&9-&r 通过子网络进行递归插入和/或提取。如果您使用子网络，请让它们执行非常特定的任务，而不是与另一个 AE2 网络交互。"
 				"{@pagebreak}"
-				"Things to &cavoid&r with GregTech (GTCEu has received a lot of improvements over GTCE, but it is possible to destroy your TPS, as with any mod):"
+				"与 GregTech 一起要 &c避免&r 的事情（GTCEu 在 GTCE 中进行了许多改进，但与任何模组一样，您可能会破坏 TPS）："
 				""
-				"&9-&r Many EU Producers connected to many EU Consumers in the same line. Instead, use a Diode or Battery Buffer to separate your line of generators to your line of machines."
+				"&9-&r 许多 EU 生产者连接到同一线路上的许多 EU 消费者。相反，使用二极管或电池缓冲器将发电机线路与机器线路分开。"
 				""
-				"&9-&r Large amounts of Fluid Pipes. They are &onot&r laggy individually, but they can add up if you have thousands of them."
+				"&9-&r 大量流体管道。它们 &onot&r 单独造成延迟，但如果您有数千个，它们可能会加起来。"
 				""
-				"&9-&r Big Item Pipe networks. Small networks are better, to reduce the number of iterations over inventories."
+				"&9-&r 大型物品管道网络。小型网络更好，以减少遍历库存的次数。"
 			]
 			icon: "minecraft:mud"
 			id: "63F9531F391040B2"
 			shape: "circle"
 			size: 0.66d
-			subtitle: "They call me 007 - 0 Naquadah, 0 EU/t, 7 TPS"
-			title: "Combatting Lag"
+			subtitle: "他们叫我 007 - 0 钠夸达，0 EU/t，7 TPS"
+			title: "对抗延迟"
 			x: 2.25d
 			y: 3.375d
 		}
 		{
 			dependencies: ["5CA86A333670A55C"]
 			description: [
-				"&aMagnetic Samarium&r (which you'll need for your &dLuV&r components) requires an &3IV Polarizer&r."
+				"&a磁钐&r（您将需要它用于 &dLuV&r 组件）需要一个 &3IV 极化器&r。"
 				""
-				"Even so, we hope you weren't running all the polarization off a single &6HV&r Polarizer. Were you?"
+				"尽管如此，我们希望您没有将所有极化都依赖于单个 &6HV&r 极化器。您是这样做的吗？"
 			]
 			id: "35D4F93EFB6EACB6"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Feeling attracted yet?"
+			subtitle: "感觉被吸引了吗？"
 			tasks: [{
 				id: "1CAACC2FAABE68A1"
 				item: "gtceu:iv_polarizer"
 				type: "item"
 			}]
-			title: "IV Magnetism"
+			title: "IV 磁性"
 			x: 0.375d
 			y: 3.75d
 		}
 		{
 			dependencies: ["77B7B1EDD19831E0"]
 			description: [
-				"Let's go over some uses!"
+				"让我们来看看一些用途！"
 				""
-				"&2Blank Pattern Storage:&r"
+				"&2空白模式存储:&r"
 				""
-				"Right-clicking with the tool in your hand will open a GUI where you can insert &9Blank Patterns&r. There's a considerable amount of storage space for transport of Patterns!"
+				"手持工具右键单击将打开一个 GUI，您可以在其中插入 &9空白模式&r。存储空间相当大，可以用于运输模式！"
 				"{@pagebreak}"
-				"&2Bulk Pattern Modification:&r"
+				"&2批量模式修改:&r"
 				""
-				"Inserting &9Encoded Patterns&r instead of blank ones will allow you to multiply/divide them all at once in bulk. This is particularly useful when multiplying up your Patterns for parallel on-demand machinery."
+				"插入 &9编码模式&r 而不是空白模式将允许您一次批量乘以/除以它们。这在将模式乘以并行按需机械时特别有用。"
 				""
-				"Patterns can also be cleared in bulk with the \"Clear\" button. There isn't any confirmation after clicking it, so use with caution."
+				"模式也可以通过 \"清除\" 按钮批量清除。单击后没有任何确认，因此请谨慎使用。"
 				"{@pagebreak}"
-				"&2Item Search and Replace:&r"
+				"&2物品搜索和替换:&r"
 				""
-				"Right-clicking the tool and clicking the &aChange Mode button&r will bring up a new GUI. This GUI will allow you to replace all occurances of one item with another for the &9Encoded Patterns&r stored within the tool."
+				"右键单击工具并单击 &a更改模式按钮&r 将弹出一个新 GUI。此 GUI 将允许您将工具中存储的 &9编码模式&r 中的所有项目的一次替换为另一个。"
 				""
-				"This is particularly useful for &eupgrading GT circuits&r, such as transitioning from Nano to Quantum &5EV&r circuits."
+				"这在 &e升级 GT 电路&r 时特别有用，例如从纳米电路过渡到量子 &5EV&r 电路。"
 				"{@pagebreak}"
-				"&2Easy Pattern Transfer:&r"
+				"&2简单的模式转移:&r"
 				""
-				"Shift-left-clicking Patterns will move them between the Player Inventory and the Modifier where possible. This means you can easily move Patterns around between Interfaces and Terminals without clogging your inventory."
+				"按住 Shift 左键单击模式将在可能的情况下在玩家库存和修改器之间移动它们。这意味着您可以轻松地在接口和终端之间移动模式，而不会堵塞您的库存。"
 				"{@pagebreak}"
-				"&bLore&r: Neeve, the author of the NAE2 mod suggested tiering this item at &eUXV&r tier, because it \"gives the player way too much power.\" For reference, &eUXV&r is 4 tiers past &3UV&r tier - two tiers before &c&lMAX&r voltage."
+				"&b背景故事&r: NAE2 模组的作者 Neeve 建议将此物品分级为 &eUXV&r 级，因为它 \"给予玩家过多的权力\"。作为参考，&eUXV&r 是比 &3UV&r 级高出 4 级 - 在 &c&lMAX&r 电压之前的两个级别。"
 			]
 			icon: "expatternprovider:pattern_modifier"
 			id: "602DA4B4820E9088"
@@ -1017,24 +1015,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "The &aPattern Modifier&r does A LOT!"
+			subtitle: "这个 &a模式修改器&r 做了很多事情！"
 			tasks: [{
 				id: "7695773132A6DFD3"
 				item: "expatternprovider:pattern_modifier"
 				type: "item"
 			}]
-			title: "Pattern Modifier"
+			title: "模式修改器"
 			x: 4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0D7C978F9CDF771B"]
 			description: [
-				"The Advanced Quantum Chestplate combines protection, a personal battery and an &6ultimate Jetpack&r into a single powerful piece of gear."
+				"高级量子胸甲结合了保护、个人电池和 &6终极喷气背包&r 成为一件强大的装备。"
 				""
-				"Note that this stores &oa lot&r of energy. You may want to invest in an &3LuV Turbo Charger&r."
+				"请注意，这会存储 &oa lot&r 的能量。您可能想要投资一个 &3LuV 涡轮充电器&r。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This armor piece is inspired by the IndustrialCraft  Addon Gravisuite, which added the Gravitation Suit, analogous to this chestplate."
+				"&l&3背景故事:&r&o 这件盔甲的灵感来自于 IndustrialCraft 附加的 Gravisuite，它增加了重力套装，与这个胸甲类似。"
 			]
 			icon: {
 				Count: 1b
@@ -1046,7 +1044,7 @@
 			id: "0A884622985A7417"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "I'll be seeing you in the skies!"
+			subtitle: "我将在天空中见到你！"
 			tasks: [{
 				id: "23AF5E66858C1950"
 				item: {
@@ -1058,11 +1056,11 @@
 				}
 				type: "item"
 			}]
-			title: "Best Flight!"
+			title: "最佳飞行！"
 			x: 6.758503401360549d
 			y: 5.621173469387756d
 		}
 	]
-	subtitle: ["Investigate the scientific and fuse elements"]
-	title: "&dLuV&r - Ludicrous Voltage"
+	subtitle: ["科学调查，融合元素"]
+	title: "&dLuV&r - 剧差压"
 }

@@ -27,19 +27,19 @@
 		{
 			dependencies: ["24F0454B9A090C44"]
 			description: [
-				"The &aZero Point Module&r (item) is a non-rechargable battery with TONS of energy stored. You may have found one of these before now, but you haven't been able to discharge it until reaching &cZPM&r."
+				"&a零点模块&r（物品）是一个不可充电的电池，储存了大量的能量。你可能之前见过这些，但在到达 &cZPM&r 之前，你无法放电。"
 				""
-				"These can only be found as loot from &6Jungle Temples&r. They're exceptionally rare - don't worry about finding one. "
+				"这些只能在 &6丛林神庙&r 中作为战利品找到。它们异常稀有——不用担心找到一个。"
 				""
-				"This quest is &6optional&r and is just for fun. Feel free to hit the checkbox if you just want the completion points!"
+				"这个任务是 &6可选&r，仅仅是为了好玩。如果你只想获得完成点，随意勾选复选框！"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Zero Point Module, the full name of the ZPM tier, is also from Stargate. Its namesake is a device which generated crazy amounts of energy."
+				"&l&3背景故事:&r&o 零点模块，即ZPM级别的全名，来源于《星际之门》。其名字来源于一个产生大量能量的装置。"
 			]
 			icon: "gtceu:zero_point_module"
 			id: "75905E3672399A63"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Unlimited powah!"
+			subtitle: "无限能量！"
 			tasks: [
 				{
 					id: "10AC8DC9332D084C"
@@ -52,27 +52,27 @@
 					type: "checkmark"
 				}
 			]
-			title: "Zero Point Module"
+			title: "零点模块"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C7C0F6A6598BC24"]
 			description: [
-				"&aZPM Superconductors&r are a major gate between you and a &9Fusion Reactor Mk2&r, which uses copious amounts for its structure blocks."
+				"&aZPM超导体&r是你与 &9聚变反应堆Mk2&r 之间的主要通道，后者在其结构块中使用了大量超导体。"
 				""
-				"You can also use them to make &9Superconducting Coils&r for cheaper."
+				"你也可以用它们制作更便宜的 &9超导线圈&r。"
 			]
 			id: "2587BFD0D9F3FF4A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Getting tired of all these pitch-black ingots yet?"
+			subtitle: "厌倦这些漆黑的金属锭了吗？"
 			tasks: [{
 				id: "5688605649CC30C3"
 				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
 				type: "item"
 			}]
-			title: "ZPM Superconductors"
+			title: "ZPM超导体"
 			x: -4.875d
 			y: 1.125d
 		}
@@ -82,15 +82,15 @@
 				"24F0454B9A090C44"
 			]
 			description: [
-				"&cZPM&r Components thankfully aren't too much harder than &dLuV&r. "
+				"&cZPM&r组件幸运的是并不比 &dLuV&r 难得太多。"
 				""
-				"They use lots of &9Osmiridium&r, so make sure your platinum refining process is up to the task."
+				"它们使用了大量的 &9奥斯米里铱&r，所以确保你的铂金精炼过程能够胜任。"
 			]
 			icon: "gtceu:zpm_electric_motor"
 			id: "5BBFE222190891DE"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Prepare your platline!"
+			subtitle: "准备好你的铂金线！"
 			tasks: [
 				{
 					id: "17E45B64101F2249"
@@ -128,22 +128,22 @@
 					type: "item"
 				}
 			]
-			title: "Absolute Elation"
+			title: "绝对的欢愉"
 			x: -6.0d
 			y: 1.125d
 		}
 		{
 			dependencies: ["378F0AFCF95354B2"]
 			description: [
-				"&aEnriched Naquadah&r is an isotope of Naquadah, Nq-528. It is radioactive and will be used in (as of yet) unimplemented nuclear reactors."
+				"&a富集的纳奎达&r是纳奎达的一种同位素，Nq-528。它是放射性的，将用于（目前尚未实现的）核反应堆中。"
 				""
-				"Currently, you just need it to make &9Trinium Coils&r."
+				"目前，你只需要它来制作 &9三氟化物线圈&r。"
 			]
 			icon: "gtceu:enriched_naquadah_ingot"
 			id: "74B037D7031F4A78"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Naquadah, but radioactive!"
+			subtitle: "纳奎达，但放射性！"
 			tasks: [
 				{
 					id: "4598D1D78A71E514"
@@ -157,7 +157,7 @@
 					type: "item"
 				}
 			]
-			title: "Enriched Naquadah"
+			title: "富集的纳奎达"
 			x: -4.875d
 			y: -1.125d
 		}
@@ -168,20 +168,20 @@
 				"2FCBA0D780DBDA9E"
 			]
 			description: [
-				"&aTrinium Coils&r bring up the Heat Capacity to &d9,001K&r."
+				"&a三氟化物线圈&r将热容量提高到 &d9,001K&r。"
 				""
-				"These coils are required for progressing to the second half of &cZPM&r, and beyond."
+				"这些线圈是推进到 &cZPM&r 及更高层次所必需的。"
 			]
 			id: "4C7C0F6A6598BC24"
 			size: 0.75d
-			subtitle: "IT'S OVER 9000!!!"
+			subtitle: "它超过9000了！！！"
 			tasks: [{
 				count: 16L
 				id: "11CD2F83031C6706"
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			title: "Trinium Coils"
+			title: "三氟化物线圈"
 			x: -4.875d
 			y: 0.0d
 		}
@@ -191,25 +191,25 @@
 				"2587BFD0D9F3FF4A"
 			]
 			description: [
-				"The &3Research Station&r is the upgrade to the Scanner. It's used for more advanced forms of research, and will finally allow you to perform research which requires &aData Orbs and Modules&r."
+				"&3研究站&r是扫描仪的升级版。它用于更高级的研究形式，并最终允许你进行需要 &a数据球和模块&r 的研究。"
 				""
-				"When running the &3Research Station&r, energy and &9Computation&r is needed. The latter is provided through an &9HPCA&r, which is explained in the next quest. It is recieved with a &3Computation Data Reception Hatch&r. Note that only one Reception Hatch is allowed in a Research Station."
+				"运行 &3研究站&r 时，需要能量和 &9计算&r。后者通过 &9HPCA&r 提供，下一任务将对此进行解释。它通过 &3计算数据接收舱&r 接收。请注意，研究站中只允许有一个接收舱。"
 				"{@pagebreak}"
-				"This multiblock needs computation &dsporadically&r, which means the recipe will not reverse progress if you don't supply enough - it will simply halt in-place. However, the machine will still draw energy constantly, even when recieving no computation."
+				"这个多块需要计算 &d不定期&r，这意味着如果你没有提供足够的计算，配方不会逆向进展——它会简单地停止在原地。然而，机器在没有接收任何计算时仍会持续消耗能量。"
 				""
-				"To scan items, the process is relatively similar. In the &3Object Holder&r, place the target item in the center slot, and the data storage item in the other slot. Then provide computation, and the data storage item will be updated upon completion. When running, the target item will be Locked and cannot be removed."
+				"要扫描物品，过程相对类似。在 &3物体持有器&r 中，将目标物品放在中央插槽中，数据存储物品放在另一个插槽中。然后提供计算，数据存储物品将在完成后更新。运行时，目标物品将被锁定，无法移除。"
 				""
-				"&eNote&r: To form this multiblock, the &3Object Holder&r must face the controller."
+				"&e注意&r：要形成这个多块，&3物体持有器&r 必须面向控制器。"
 			]
 			id: "468EEFD9D2F69014"
 			size: 0.75d
-			subtitle: "Your research adventures continue!"
+			subtitle: "你的研究冒险继续！"
 			tasks: [{
 				id: "148C1C60A855B61E"
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			title: "Research Station"
+			title: "研究站"
 			x: -4.875d
 			y: 2.25d
 		}
@@ -219,65 +219,65 @@
 				"7AE681E2AB31EA0D"
 			]
 			description: [
-				"The &aUV Mainframe&r is required to move into &3Fusion Mk2&r."
+				"&aUV主机&r是进入 &3聚变Mk2&r 的必要条件。"
 				""
-				"It's also made in the Assembly Line."
+				"它也在组装线中制作。"
 				""
-				"Passing over the ingredients we've already seen before, watch out for the &6HSS-E Frames&r."
+				"在我们已经看到的成分中，注意 &6HSS-E框架&r。"
 			]
 			id: "79E4E53E9DF45549"
 			size: 0.75d
-			subtitle: "...ah, here we go!"
+			subtitle: "...啊，来了！"
 			tasks: [{
 				id: "226973A23C89BDD2"
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			title: "First UV Circuits!"
+			title: "第一次UV电路！"
 			x: -3.75d
 			y: 3.375d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
-				"The &aCrystal SoC&r is used to make cheaper &9Crystal Circuits&r. Enjoy the discount!"
+				"&a水晶SoC&r用于制作更便宜的 &9水晶电路&r。享受折扣！"
 				""
-				"Crystal SoCs require &9ZPM Emitters&r, which means you need a &9Data Orb&r for their research."
+				"水晶SoC需要 &9ZPM发射器&r，这意味着你需要一个 &9数据球&r 来进行研究。"
 				""
-				"In the future, these may become more difficult to make."
+				"在未来，这些可能会变得更难制作。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GT5u, the texture for this item was red, and did not have the special design on it. There was a \"raw\" version with the design, but it was used for other unrelated things. Who knows why?"
+				"&l&3背景故事:&r&o 在GT5u中，这个物品的纹理是红色的，并没有特殊设计。确实有一个带有设计的“原始”版本，但它用于其他不相关的东西。谁知道为什么？"
 			]
 			id: "29B7D93D7F32DBA9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "When engraving it once isn't enough"
+			subtitle: "当一次雕刻还不够"
 			tasks: [{
 				id: "488A759013AF2680"
 				item: "gtceu:crystal_soc"
 				type: "item"
 			}]
-			title: "Crystal SoC"
+			title: "水晶SoC"
 			x: -3.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["1D6CC3C7F6BE4055"]
 			description: [
-				"This hatch allows you to store more &aData Storage Items&r than the basic one."
+				"这个舱口允许你存储比基本舱口更多的 &a数据存储物品&r。"
 				""
-				"Don't forget that this hatch requires a &9Data Orb&r for research."
+				"不要忘了，这个舱口需要一个 &9数据球&r 来进行研究。"
 			]
 			id: "72740001958E929A"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Increased storage density!"
+			subtitle: "增加存储密度！"
 			tasks: [{
 				id: "0EC657B81458D697"
 				item: "gtceu:advanced_data_access_hatch"
 				type: "item"
 			}]
-			title: "Advanced Data Access Hatch"
+			title: "高级数据访问舱口"
 			x: -2.625d
 			y: 1.125d
 		}
@@ -286,12 +286,12 @@
 				"378F0AFCF95354B2"
 				"4C7C0F6A6598BC24"
 			]
-			description: ["&aNaquadria&r is an isotope of Naquadah, Nq-522. It's highly unstable, but it'll still be used for &3UV&r components, &9Fusion Mk2&r, and when fusing Neutronium."]
+			description: ["&a纳奎达&r是纳奎达的一种同位素，Nq-522。它高度不稳定，但仍将用于 &3UV&r 组件，&9聚变Mk2&r，以及熔合中子材料。"]
 			icon: "gtceu:naquadria_ingot"
 			id: "6D1F10543A391940"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Naquadah, but radioactive-er!"
+			subtitle: "纳奎达，但更放射性！"
 			tasks: [
 				{
 					id: "4A49FE8B35B48D97"
@@ -305,38 +305,38 @@
 					type: "item"
 				}
 			]
-			title: "Naquadria"
+			title: "纳奎达"
 			x: -2.625d
 			y: 0.0d
 		}
 		{
 			dependencies: ["690E013DFCB060ED"]
 			description: [
-				"Production of &aSterilized Growth Medium&r is the final processing line in GTCEu, for now."
+				"生产 &a灭菌生长介质&r 是GTCEu中最后的处理线，暂时。"
 				""
-				"You will need this for your first &4Wetware Circuits&r."
+				"你将需要它来制作你的第一个 &4湿件电路&r。"
 				""
-				"Producing it won't be as much of a hassle as PBI, but nearly every step requires a Sterilized Cleanroom. This means you'll have to get creative with how you use your space."
+				"生产它不会像PBI那样麻烦，但几乎每一步都需要灭菌洁净室。这意味着你需要创造性地使用空间。"
 				""
-				"Make sure to scrutinise every step of the chain. Some recipes are much more efficient than others!"
+				"确保仔细检查链条的每一步。有些配方比其他配方更有效！"
 				""
-				"&ePro Tip&r: You can wall-share cleanrooms with doors in-between too if you want more space."
+				"&e专业提示&r：如果你想要更多空间，你也可以将洁净室与门共享墙壁。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o GTCEu's Sterilized Growth Medium chain is loosely based off of Bartworks' from GTNH. The main difference is that GTNH required a Bacterial Vat multiblock, which was more complex than the ordered Assembly Line. GTCEu is considering adding a multiblock like it but with their own spin in the future."
+				"&l&3背景故事:&r&o GTCEu的灭菌生长介质链条松散地基于GTNH的Bartworks。主要区别在于GTNH需要一个复杂的细菌罐多块，而GTCEu则考虑在未来添加一个类似的多块，但会有自己的风格。"
 				"{@pagebreak}"
-				"&l&More Lore:&r&o In Gregicality Legacy, the Sterilized Growth Medium production chain was very different. It was one of the most difficult processes in the mod, with over 30 complicated steps! It was based off of producing different real-life vitamins and nutrients."
+				"&l&更多背景故事:&r&o 在Gregicality Legacy中，灭菌生长介质的生产链条截然不同。它是该模组中最复杂的过程之一，超过30个复杂步骤！它是基于生产不同的现实生活维生素和营养素。"
 				"{@pagebreak}"
-				"&l&Even More Lore:&r&o In Shadows of Greg, this was made with just Distilled Water and Mince Meat. How far we've come..."
+				"&l&甚至更多背景故事:&r&o 在《Greg的阴影》中，这个过程只需蒸馏水和绞肉。我们走了多远……"
 			]
 			id: "6AFDA523304711DB"
 			size: 0.75d
-			subtitle: "The final processing line, at last!"
+			subtitle: "最后的处理线，终于来了！"
 			tasks: [{
 				id: "5FFC06116E025936"
 				item: "gtceu:sterilized_growth_medium_bucket"
 				type: "item"
 			}]
-			title: "Sterilized Growth Medium"
+			title: "灭菌生长介质"
 			x: -0.375d
 			y: 1.125d
 		}
@@ -346,14 +346,14 @@
 				"0D7C978F9CDF771B"
 			]
 			description: [
-				"The &aZPM Lapotronic Orb&r is even better than the &dLuV&r one! It of course comes at a price..."
+				"&aZPM拉波特朗球&r比 &dLuV&r 的还要好！当然，它的价格也不便宜……"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Imagine making 64 &1IV&f or 8 &dLuV&f Orbs for just one of these! See the Lore for the &dLuV&f orb for details."
+				"&l&3背景故事:&r&o 想象一下，制作64个 &1IV&f 或8个 &dLuV&f 球只需一个这样的！有关 &dLuV&f 球的详细信息，请参见背景故事。"
 			]
 			icon: "gtceu:energy_module"
 			id: "690A51204DF5D469"
 			size: 0.75d
-			subtitle: "A power singularity!"
+			subtitle: "一个能量奇点！"
 			tasks: [
 				{
 					id: "41813C4D68B991D7"
@@ -367,7 +367,7 @@
 					type: "item"
 				}
 			]
-			title: "Mega Batteries"
+			title: "超级电池"
 			x: -1.5d
 			y: 1.125d
 		}
@@ -380,11 +380,11 @@
 				"24F0454B9A090C44"
 			]
 			description: [
-				"This Quest will be completed with &eeither&r a &3ZPM Energy Hatch&r&r... or a &3ZPM Dynamo Hatch&r for your Multiblock Generators."
+				"此任务将通过 &eeither&r 一个 &3ZPM能量舱&r&r... 或一个 &3ZPM发电舱&r 来完成，供你的多块发电机使用。"
 				""
-				"Don't forget that &d16 Amp&r variants exist!"
+				"别忘了 &d16安培&r 变体的存在！"
 				""
-				"Don't forget that these hatches require a &9Data Orb&r for research."
+				"别忘了这些舱口需要一个 &9数据球&r 来进行研究。"
 			]
 			icon: "gtceu:zpm_energy_input_hatch"
 			id: "64EA73FAB2A51850"
@@ -402,7 +402,7 @@
 					type: "item"
 				}
 			]
-			title: "Upgrading your Assembly Line II"
+			title: "升级你的组装线 II"
 			x: -2.625d
 			y: 2.25d
 		}
@@ -412,63 +412,63 @@
 				"3568BC9742092FC5"
 			]
 			description: [
-				"The &aSterilized Cleanroom&r is required to produce the next tier of circuits. Nearly every step must be performed inside of one. Good luck fitting everything into such a tight space!"
+				"&a灭菌洁净室&r是生产下一级电路所需的。几乎每一步都必须在其中进行。祝你好运，把所有东西都放进这么小的空间里！"
 				""
-				"If you only have one &3Cleanroom&r, you'll need another for &aSterilized&r recipes."
+				"如果你只有一个 &3洁净室&r，你将需要另一个用于 &a灭菌&r 配方。"
 				""
-				"&eNote&r: Normal Cleanroom recipes cannot run in the Sterilized Cleanroom, so you can't just \"upgrade\" your old Cleanrooms."
+				"&e注意&r：普通洁净室配方不能在灭菌洁净室中运行，因此你不能仅仅通过“升级”你的旧洁净室来解决。"
 			]
 			id: "690E013DFCB060ED"
 			size: 0.75d
-			subtitle: "Comes with disinfectant!"
+			subtitle: "配备消毒剂！"
 			tasks: [{
 				count: 8L
 				id: "6A4C78385FF8019A"
 				item: "gtceu:sterilizing_filter_casing"
 				type: "item"
 			}]
-			title: "Sterilized Cleanroom"
+			title: "灭菌洁净室"
 			x: -0.375d
 			y: 2.25d
 		}
 		{
 			dependencies: ["468EEFD9D2F69014"]
 			description: [
-				"The &3High Performance Computation Array&r, also known as the &3HPCA&r, is the multiblock used to create &9Computation&r, measured in CWU/t (Compute-Work Units per tick)."
+				"&3高性能计算阵列&r，也称为 &3HPCA&r，是用于创建 &9计算&r 的多块，计算以CWU/t（每个刻的计算工作单位）为单位。"
 				""
-				"The HPCA is a modular multiblock with many unique components you've likely not seen before. There are &a9 slots available&r for different components, and there are some example layouts in the JEI previews, so reviewing these may help if you feel confused."
+				"HPCA是一个模块化多块，具有许多你可能从未见过的独特组件。有 &a9 个可用插槽&r 用于不同的组件，并且在JEI预览中有一些示例布局，因此如果你感到困惑，查看这些可能会有所帮助。"
 				"{@pagebreak}"
-				"There are two main types of components:"
+				"有两种主要类型的组件："
 				""
-				"- &9Computation Components&r: These generate CWU/t and require EU/t and cooling."
-				"- &9Cooling Components&r: These provide a certain amount of cooling, and require EU/t."
+				"- &9计算组件&r：这些生成CWU/t，并需要EU/t和冷却。"
+				"- &9冷却组件&r：这些提供一定量的冷却，并需要EU/t。"
 				""
-				"Currently Available Components:"
+				"当前可用组件："
 				""
-				"- &9Empty&r: Fills a slot but otherwise does nothing."
-				"-&9 Heat Sink&r: Requires no power but provides 1 cooling."
-				"- &9Active Cooler&r: Requires power, PCB Coolant, but provides 2 cooling."
-				"- &9Computation&r: Creates 4 CWU/t, but requires a lot of power and cooling."
+				"- &9空&r：填充一个插槽，但其他什么也不做。"
+				"-&9 散热器&r：不需要电力，但提供1的冷却。"
+				"- &9主动冷却器&r：需要电力、PCB冷却剂，但提供2的冷却。"
+				"- &9计算&r：创建4 CWU/t，但需要大量电力和冷却。"
 				"{@pagebreak}"
-				"The HPCA draws some power to idle. Its power and cooling requirements will sit between the idle upkeep power and a maximum value depending on how much computation is being used."
+				"HPCA在空闲时也会消耗一些电力。它的电力和冷却需求将在空闲维护电力和根据使用的计算量的最大值之间。"
 				""
-				"If the HPCA is not given enough cooling, Computation components can be &4damaged&r if it is allowed to run above &c100C&r (the idle temperature is &a20C&r). Only computation components can be damaged - all other blocks will be unharmed!"
+				"如果HPCA没有提供足够的冷却，计算组件在允许其运行超过 &c100C&r 时可能会 &4受损&r（空闲温度为 &a20C&r）。只有计算组件会受损——所有其他块不会受到伤害！"
 				""
-				"The HPCA can only have 1 &3Computation Data Transmission Hatch&r. You can connect it to the Reception Hatch of the &9Research Station&r with Optical Fiber Cable to transmit the computation."
+				"HPCA只能有一个 &3计算数据传输舱口&r。你可以通过光纤电缆将其连接到 &9研究站&r 的接收舱，以传输计算。"
 				"{@pagebreak}"
-				"Basic CWU/t Requirements for ZPM Tier:"
+				"ZPM级别的基本CWU/t需求："
 				""
-				"- &a4 CWU/t&r for &cZPM&r Sensors, Emitters, and Field Generators"
-				"- &a8 CWU/t&r for &cZPM&r Enegy Hatches"
-				"- &a16 CWU/t&r for &3UV&r Circuits and beyond."
+				"- &a4 CWU/t&r 用于 &cZPM&r 传感器、发射器和场发生器"
+				"- &a8 CWU/t&r 用于 &cZPM&r 能量舱口"
+				"- &a16 CWU/t&r 用于 &3UV&r 电路及更高。"
 				""
-				"Don't feel forced to go for 16 CWU/t immediately. There's lots to do in between these milestones."
+				"不要觉得必须立即追求16 CWU/t。在这些里程碑之间还有很多事情要做。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o This mechanic is loosely inspired by TecTech's Quantum Computer, which is similar but has some much more annoying mechanics like the Uncertainty Resolver."
+				"&l&3背景故事:&r&o 这个机制灵感来源于TecTech的量子计算机，类似但有一些更烦人的机制，比如不确定性解析器。"
 			]
 			id: "1D6CC3C7F6BE4055"
 			size: 0.75d
-			subtitle: "That's no Quantum Computer..."
+			subtitle: "这可不是量子计算机……"
 			tasks: [{
 				id: "5F20D430C26D3BE4"
 				item: "gtceu:high_performance_computation_array"
@@ -480,190 +480,190 @@
 		}
 		{
 			dependencies: ["6AFDA523304711DB"]
-			description: ["&aStem Cells&r are a major component of &4Wetware Circuits&r. Just don't question why these use Osmiridium."]
+			description: ["&a干细胞&r是 &4湿件电路&r 的主要组成部分。只是不要质疑为什么这些需要奥斯米里铱。"]
 			id: "33A1FF5C31EAF716"
 			size: 0.75d
-			subtitle: "This texture used to be really ugly..."
+			subtitle: "这个纹理曾经真的很丑……"
 			tasks: [{
 				id: "1E31342D5310ED6D"
 				item: "gtceu:stem_cells"
 				type: "item"
 			}]
-			title: "Stem Cells"
+			title: "干细胞"
 			x: -0.375d
 			y: 0.0d
 		}
 		{
 			dependencies: ["33A1FF5C31EAF716"]
 			description: [
-				"The final circuit board - it's been a long time coming! As you can see, this board is &cmuch&r more expensive than the other ones, but you should be alright. You're a pro now!"
+				"最终电路板——这来之不易！正如你所见，这个板子比其他的 &c贵&r得多，但你应该没问题。你现在是专业人士了！"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In GTNH, these circuit boards require LuV Sensors, instead of IV. This means that Wetware LuV circuits, needed other (crystal) LuV circuits!"
+				"&l&3背景故事:&r&o 在GTNH中，这些电路板需要LuV传感器，而不是IV。这意味着湿件LuV电路需要其他（水晶）LuV电路！"
 				""
-				"Additionally, because Wetware was so expensive, using Crystal was preferred unless UHV wetware circuits were needed. Thankfully, CEu does not have this problem, and LuV Wetware Circuits are worth making."
+				"此外，由于湿件的成本如此高，通常优先使用水晶，除非需要UHV湿件电路。值得庆幸的是，CEu没有这个问题，LuV湿件电路是值得制作的。"
 			]
 			id: "678CABA03E17516A"
 			size: 0.75d
-			subtitle: "The board of life itself"
+			subtitle: "生命本身的电路板"
 			tasks: [{
 				id: "0097D7805D82EDEC"
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			title: "Wetware Printed Circuit Board"
+			title: "湿件印刷电路板"
 			x: -0.375d
 			y: -1.125d
 		}
 		{
 			dependencies: ["678CABA03E17516A"]
-			description: ["The &aNeuro Processing Unit&r serves as the CPU for &4Wetware&r. It also takes a circuit board in its recipe, but don't let that scare you."]
+			description: ["&a神经处理单元&r作为 &4湿件&r 的CPU。它的配方中也需要一个电路板，但不要让这吓到你。"]
 			id: "3BD68E5909A97532"
 			size: 0.75d
-			subtitle: "Neurons for computation"
+			subtitle: "用于计算的神经元"
 			tasks: [{
 				id: "06AE61C5F174F4E7"
 				item: "gtceu:neuro_processing_unit"
 				type: "item"
 			}]
-			title: "It's Alive!"
+			title: "它活过来了！"
 			x: 0.75d
 			y: -1.125d
 		}
 		{
 			dependencies: ["082AB255886E73C2"]
 			description: [
-				"The second circuit of the &4wetware&r line."
+				"&4湿件&r线的第二个电路。"
 				""
-				"This is also the best &cZPM&r circuit!"
+				"这也是最好的 &cZPM&r 电路！"
 			]
 			id: "370FC1CDF5F9A9CC"
 			size: 0.75d
-			subtitle: "Did that circuit just BLINK at me?"
+			subtitle: "那电路刚刚对我眨眼吗？"
 			tasks: [{
 				id: "31DF7507733F3EE0"
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			title: "Best ZPM Circuits!"
+			title: "最佳ZPM电路！"
 			x: 0.75d
 			y: 1.125d
 		}
 		{
 			dependencies: ["3BD68E5909A97532"]
 			description: [
-				"The first Circuit of the &4Wetware&r line."
+				"&4湿件&r线的第一个电路。"
 				""
-				"&6Congrats&r!"
+				"&6恭喜&r！"
 			]
 			id: "082AB255886E73C2"
 			size: 0.75d
-			subtitle: "Eek, it's alive!"
+			subtitle: "哎呀，它活过来了！"
 			tasks: [{
 				id: "0B12A1F63822CF8A"
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			title: "Best LuV Circuits!"
+			title: "最佳LuV电路！"
 			x: 0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["24366846FDA52CE3"]
 			description: [
-				"Remember &aDarmstadtium&r tools from &3GTCE&r? Well then... guess who's back?"
+				"还记得 &a达姆斯塔钛&r 工具吗？来自 &3GTCE&r？那么……猜猜谁回来了？"
 				""
-				"&aDarmstadtium&r is the main material for &3UV&r hulls. It is yet again made with Fusion."
+				"&a达姆斯塔钛&r 是 &3UV&r 舱体的主要材料。它再次通过聚变制作。"
 				"{@pagebreak}"
-				"&bFun Fact&r: Arsenic does not exist as a liquid at standard conditions. It sublimates directly into a gas! \"Realism\", my ass."
+				"&b有趣的事实&r：砷在标准条件下并不存在为液体。它直接升华为气体！“现实主义”，我去。"
 			]
 			id: "6988AE94BE7B461F"
 			size: 0.75d
-			subtitle: "I want my particle accelerator back..."
+			subtitle: "我想要我的粒子加速器回来……"
 			tasks: [{
 				id: "798EFE8E18E79C0C"
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			title: "Darmstadtium"
+			title: "达姆斯塔钛"
 			x: -2.625d
 			y: 4.5d
 		}
 		{
 			dependencies: ["546CC03435E763CF"]
 			description: [
-				"&aDuranium&r is a material from Star Trek, and is used for a few things in GT. It makes some pretty awesome pipes, but otherwise you won't need much of this quite yet."
+				"&a杜兰铝&r 是来自《星际迷航》的材料，在GT中用于一些东西。它制作了一些相当不错的管道，但除此之外，你暂时不需要太多。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In some versions of GT5u, this material was entirely white. In fact, most fusion materials and later were like this. Boring!"
+				"&l&3背景故事:&r&o 在某些版本的GT5u中，这种材料完全是白色的。事实上，大多数聚变材料和后来的材料都是这样的。无聊！"
 			]
 			id: "2CB8FCE09920042C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Who needs Stargate, anyway?"
+			subtitle: "谁还需要《星际之门》，呢？"
 			tasks: [{
 				id: "0933A476B9F87E66"
 				item: "gtceu:duranium_ingot"
 				type: "item"
 			}]
-			title: "Duranium"
+			title: "杜兰铝"
 			x: -0.375d
 			y: 4.5d
 		}
 		{
 			dependencies: ["24366846FDA52CE3"]
 			description: [
-				"&aAmericium&r is a Fusion Mk2 material, used in large quantities in CEu progression!"
+				"&a美洲铀&r 是一种聚变Mk2材料，在CEu进程中大量使用！"
 				""
-				"It requires 2 Fusion steps to obtain - Lanthanum and Silicon will make &bLutetium&r, and combining this &bLutetium&r with Chrome will give you &aAmericium&r."
+				"它需要两个聚变步骤来获得——镧和硅将制作 &b铥&r，结合这个 &b铥&r 和铬将给你 &a美洲铀&r。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In Gregicality Legacy, Americium was replaced with Dubnium. Americium is a material only obtained from nuclear reactors, so GCYL changed it to the synthetic element Dubnium instead."
+				"&l&3背景故事:&r&o 在Gregicality Legacy中，美洲铀被替换为铷。美洲铀是仅通过核反应堆获得的材料，因此GCYL将其更改为合成元素铷。"
 			]
 			id: "762C48F0C2EA6B81"
 			size: 0.75d
-			subtitle: "It'd be nice if we could make this in a nuclear reactor..."
+			subtitle: "如果我们能在核反应堆中制造这个，那就太好了……"
 			tasks: [{
 				id: "5D597AE565A54388"
 				item: "gtceu:americium_ingot"
 				type: "item"
 			}]
-			title: "Americium"
+			title: "美洲铀"
 			x: -1.5d
 			y: 3.375d
 		}
 		{
 			dependencies: ["370FC1CDF5F9A9CC"]
 			description: [
-				"The third circuit of the &4wetware&r line. Get some &bEuropium&r to make these."
+				"&4湿件&r线的第三个电路。获取一些 &b铕&r 来制作这些。"
 				""
-				"This is also the best &3UV&r circuit!"
+				"这也是最好的 &3UV&r 电路！"
 			]
 			id: "359121584E056022"
 			size: 0.75d
-			subtitle: "Sentience in circuit form"
+			subtitle: "电路形式的意识"
 			tasks: [{
 				id: "5F54BE8467A5C882"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			title: "Best UV Circuits!"
+			title: "最佳UV电路！"
 			x: 0.75d
 			y: 2.25d
 		}
 		{
 			dependencies: ["79E4E53E9DF45549"]
 			description: [
-				"&3Advanced HPCA Components&r are improved versions of their regular counterparts, and allow for increasing the computation you can produce from an HPCA."
+				"&3高级HPCA组件&r 是其常规对应物的改进版本，允许你增加从HPCA中可以产生的计算。"
 				""
-				"The &3HPCA Advanced Computation Component&r produces &a4x&r the computation for only &a2x&r the Cooling!"
+				"&3HPCA高级计算组件&r 产生 &a4x&r 的计算，仅需 &a2x&r 的冷却！"
 			]
 			id: "0199DBC46D7BC2B9"
 			size: 0.75d
-			subtitle: "Time for some computational advancement!"
+			subtitle: "是时候进行一些计算进步了！"
 			tasks: [{
 				id: "761AFCD5742F9A03"
 				item: "gtceu:hpca_advanced_computation_component"
 				type: "item"
 			}]
-			title: "Advanced HPCA Components"
+			title: "高级HPCA组件"
 			x: -4.875d
 			y: 3.375d
 		}
@@ -674,24 +674,24 @@
 				"79E4E53E9DF45549"
 			]
 			description: [
-				"Build the structure displayed with Fusion Glass in &aJEI&r."
+				"用聚变玻璃构建所显示的结构，参见 &aJEI&r。"
 				""
-				"To save on Fusion Casings, fit Input + Output Hatches wherever you can (as displayed in the structure)."
+				"为了节省聚变外壳，尽可能在结构中放置输入和输出舱口。"
 				""
-				"The &aFusion Reactor Mk2&r is even more expensive than the Mk1! The key difference is that it has a higher &6Energy To Start&r than the Mk1, allowing you to run new recipes."
+				"&a聚变反应堆Mk2&r 比Mk1更昂贵！关键区别在于它的 &6启动能量&r 比Mk1更高，允许你运行新的配方。"
 				""
-				"It can also overclock lower voltage recipes, such as those in the Mk1 reactor. See the Mk1's quest for how these mechanics work."
+				"它还可以超频较低电压的配方，例如Mk1反应堆中的配方。有关这些机制的工作原理，请参见Mk1的任务。"
 			]
 			id: "24366846FDA52CE3"
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Fusion just got more expensive..."
+			subtitle: "聚变刚刚变得更加昂贵……"
 			tasks: [{
 				id: "0D45B9FFF6BA13FE"
 				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
-			title: "Fusion Reactor II"
+			title: "聚变反应堆 II"
 			x: -2.625d
 			y: 3.375d
 		}
@@ -701,25 +701,25 @@
 				"24366846FDA52CE3"
 			]
 			description: [
-				"&aTritanium&r is a material from Star Trek, and is used for a few other things in GT. It, like &9Americium&r, requires two fusion steps!"
+				"&a三氟化物&r 是来自《星际之门》的材料，在GT中用于其他一些东西。它像 &9美洲铀&r 一样，需要两个聚变步骤！"
 				""
-				"You'll need this to get the next tier of circuits, and for &3UV&r components."
+				"你将需要它来获取下一级电路，以及 &3UV&r 组件。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o In some versions of GT5u, only Tritanium fluid was red. The material was otherwise white. In GTCEu, we decided to make the whole thing red instead. Much better looking!"
+				"&l&3背景故事:&r&o 在某些版本的GT5u中，只有三氟化物液体是红色的。材料在其他方面是白色的。在GTCEu中，我们决定将整个材料变成红色。看起来好多了！"
 			]
 			id: "35F13B6D60361904"
 			size: 0.75d
-			subtitle: "Star Trek strikes again!"
+			subtitle: "《星际之门》再次袭来！"
 			tasks: [{
 				id: "6C5B3B1C0B85C003"
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			title: "Tritanium"
+			title: "三氟化物"
 			x: -0.375d
 			y: 3.375d
 		}
 	]
-	subtitle: ["Harness the cosmos and wield the bacteriological"]
-	title: "&cZPM&r - Zero Point Module"
+	subtitle: ["运用细菌，掌控宇宙"]
+	title: "&cZPM&r - 零点压"
 }
