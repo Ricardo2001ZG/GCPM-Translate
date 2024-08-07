@@ -19,15 +19,15 @@
 	quests: [
 		{
 			description: [
-				"This modpack is intended as a guide on &b&lGregtech: Community Edition Unofficial Modern&r&r (also known as &aGTCEu Modern&r or &aCEu Modern&r), a continuation of &aGTCE&r - which is in itself a fork of Gregtech."
+				"这个模组包旨在作为&b&lGregtech: Community Edition Unofficial Modern&r&r（也称为&aGTCEu Modern&r或&aCEu Modern&r）的指南，这是对&aGTCE&r的延续——它本身就是Gregtech的一个分支。"
 				""
-				"New content has been added to each and every tier, even going up to &3Ultimate Voltage,&r and there is also a non-negligible amount of &dQuality of Life&r."
+				"每个等级都有新的内容，甚至一直到&3Ultimate Voltage&r，还有相当数量的&d生活质量&r更新。"
 				""
-				"&aCEu Modern&r brings the mod up to date with &erecent versions&r of Minecraft &o(as of writing this)&r. You can open the questbook with the default keybind &6F4&r, but feel free to change it if it isn't to your tastes."
+				"&aCEu Modern&r使模组与&erecent versions&r的Minecraft保持同步&o（截至撰写时）&r。您可以通过默认的按键绑定&6F4&r打开任务书，但如果不合您的口味，可以随意更改。"
 				"{@pagebreak}"
-				"This is a &2pure &lTech&r&2 modpack&r, focused on GregTech and its progression. You'll find &6no better place&r to learn about this mod and all the features it adds!"
+				"这是一个&2纯粹的&l科技&r&2模组包&r，专注于GregTech及其进展。您会发现&6没有比这里更好的地方&r来了解这个模组及其所添加的所有功能！"
 				""
-				"The questbook you're reading is &ebrimming with information&r to guide you through the modpack, so check it out if you find yourself getting lost.  We wrote it with both &dold-school veterans&r and &bnewcomers&r in mind."
+				"您正在阅读的任务书&ebrimming with information&r，以指导您通过模组包，因此如果您发现自己迷失了，请查看一下。我们在撰写时考虑到了&d资深专家&r和&b新玩家&r。"
 			]
 			icon: "kubejs:greg_icon"
 			id: "25289F9E8AE01C29"
@@ -36,29 +36,29 @@
 				icon: "minecraft:cooked_beef"
 				id: "6FD85EC9BD99C866"
 				item: "gtceu:sus_record"
-				title: "Steak"
+				title: "牛排"
 				type: "item"
 			}]
 			shape: "rsquare"
 			size: 1.2d
-			subtitle: "We hope you enjoy your stay"
+			subtitle: "希望您享受您的旅程"
 			tasks: [{
 				id: "6C1F570DB9013DE7"
-				title: "Welcome!"
+				title: "欢迎！"
 				type: "checkmark"
 			}]
-			title: "Welcome to GregTech CEu!"
+			title: "欢迎来到 GregTech CEu！"
 			x: -0.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["25289F9E8AE01C29"]
 			description: [
-				"&o&7\"My adventure starts with some tree punching!? Huh, I thought GregTech was supposed to shake things up a bit...\"&r"
+				"&o&7“我的冒险是从砍树开始的！？哼，我以为GregTech应该稍微改变一下游戏规则……”&r"
 				""
-				"If you're familiar with GregTech, you may be aware of its &cmany nerfs&r to vanilla recipes. GTCEu does include its fair share - take a look at the crafting recipes for &eBuckets&r or &ePaper&r. However, we'll ease off the insanity in earlygame, and 1 Log will give you 4 Planks. &aRejoice!&r"
+				"如果您熟悉GregTech，您可能知道它对原版配方进行了&c许多削弱&r。GTCEu确实包含了一些——看看&e桶&r或&e纸&r的制作配方。不过，我们会在早期游戏中稍微放松疯狂，1根原木将给您4块木板。&a欢呼！&r"
 				""
-				"Here, take this &6Prospector&r. You can use it to scan for ores underground - this should give you a small boost."
+				"这里，拿着这个&6探矿器&r。您可以用它来扫描地下的矿石——这应该会给您一个小小的提升。"
 			]
 			icon: "minecraft:oak_log"
 			id: "0EAF2C5B5EB755C5"
@@ -75,7 +75,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Begin your playthrough as before"
+			subtitle: "像以前一样开始您的游戏"
 			tasks: [
 				{
 					count: 6L
@@ -88,7 +88,7 @@
 						}
 					}
 					match_nbt: false
-					title: "Any Logs"
+					title: "任何木材"
 					type: "item"
 				}
 				{
@@ -97,18 +97,18 @@
 					type: "item"
 				}
 			]
-			title: "The Beginning of it All"
+			title: "一切的开始"
 			x: -0.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Here's a &6nifty&r list of some resources that you'll need in bulk for early-game. Collect more than we're asking for in this quest - you'll end up running out before you know it, and it's always a good habit to gather more than you need in &aGregTech&r."
+				"这里有一个&6精巧的&r资源清单，您在早期游戏中需要大量的。收集比我们在这个任务中要求的更多——您会在不知不觉中用完，而在&GregTech&r中，收集比您需要的更多总是个好习惯。"
 				""
-				"We'd actually advise that you &etackle this quest first&r, so that you can claim its &breward&r. That way, you can do a little bit of main (read: &ointeresting&r) progression &4&lBEFORE&r you're forced to go mining."
+				"我们实际上建议您&etackle this quest first&r，这样您就可以领取它的&breward&r。这样，您可以在被迫去挖矿之前，进行一些主线（阅读：&ointeresting&r）进展&4&lBEFORE&r。"
 				""
-				"Eight furnaces might seem &cexcessive&r if you're new to &aGregTech,&r but trust us... you can never have too many."
+				"八个熔炉在您是&agregtech&r的新手时可能看起来&cexcessive&r，但相信我们……您永远不会有太多的熔炉。"
 			]
 			icon: "minecraft:sugar_cane"
 			id: "0436F7B60BDEB091"
@@ -120,7 +120,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Gather some resources!"
+			subtitle: "收集一些资源！"
 			tasks: [
 				{
 					count: 4L
@@ -153,20 +153,20 @@
 					type: "item"
 				}
 			]
-			title: "What do I need to progress?"
+			title: "我需要什么来进展？"
 			x: -0.75d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"The ore generation in &2GregTech&r is very different to vanilla or normal modded Minecraft. All ores generate in &6huge veins&r, which can contain &dhundreds&o&r of ore blocks."
+				"&2GregTech&r中的矿石生成与原版或普通模组Minecraft非常不同。所有矿石以&6巨大矿脉&r的形式生成，这些矿脉可以包含&dhundreds&o&r的矿石块。"
 				""
-				"The full extent of ore generation is explained in the Tips and Tricks tab, but here is what you need to know:"
+				"矿石生成的完整情况在提示和技巧选项卡中进行了说明，但您需要知道的是："
 				""
-				"&9-&r Ore veins generate in a &4Grid&r. Every vein is &9spaced by (approximately) 3 chunks&r from one to another in a cardinal direction."
+				"&9-&r矿脉以&4网格&r生成。每个矿脉之间的间隔是&9（大约）3个区块&r，沿着一个方向。"
 				""
-				"&9-&r It's a good practice to make &dWaypoints&r (default &4N&r) for every vein you find, and to label their type. You may want to come back to the vein several times."
+				"&9-&r为您找到的每个矿脉制作&d路标&r（默认&4N&r）是一个好习惯，并标记它们的类型。您可能想多次回来查看这个矿脉。"
 			]
 			icon: "gtceu:cobaltite_ore"
 			id: "0C690272ED4FB1C3"
@@ -174,23 +174,23 @@
 			size: 0.66d
 			tasks: [{
 				id: "3FA401CACE8BBE5D"
-				title: "Woah, ores sure sound exciting."
+				title: "哇，矿石听起来真令人兴奋。"
 				type: "checkmark"
 			}]
-			title: "Ore Generation"
+			title: "矿石生成"
 			x: -2.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Were you aware that &aGregTech&r comes with its own set of tools? If not, you'll be pleasantly surprised to hear that they &6&lsurpass&r their vanilla equivalents."
+				"您知道&aGregTech&r有自己的一套工具吗？如果不知道，您会很高兴地发现它们&6&lsurpass&r其原版同类工具。"
 				""
-				"Let's use the GregTech Axe as an example. If you use one to mine a log in a tree, it'll fell the &2entire tree&r for you. Timber!"
+				"让我们用GregTech斧作为例子。如果您用它来挖掘树木，它会为您砍倒&2整棵树&r。木材！"
 				""
-				"Constant \"lumberjacking\" will eat through your Axe's &9durability&r in seconds, so you may want to make your Axe out of a &estronger material&r such as &bDiamond&r. Just be careful you don't make a vanilla Diamond Axe!"
+				"不断的“伐木”会在几秒钟内耗尽您斧头的&9耐久度&r，因此您可能想用&estronger material&r（如&b钻石&r）制作斧头。只要小心不要制作成原版的钻石斧！"
 				""
-				"As a reward, take these &2Spruce saplings&r and use them to make some big trees. You'll need to do a lot of smelting in the near future, and planks will tide you over as an &deffective&r fuel source!"
+				"作为奖励，拿着这些&2云杉树苗&r，用它们种一些大树。您将在不久的将来需要大量熔炼，而木板将作为&deffective&r的燃料来源！"
 			]
 			icon: {
 				Count: 1b
@@ -211,7 +211,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Who needs Veinminer?"
+			subtitle: "谁需要矿脉采矿器？"
 			tasks: [{
 				id: "3880A08A72884627"
 				item: {
@@ -680,10 +680,10 @@
 						]
 					}
 				}
-				title: "Grab any Lumber Axe!"
+				title: "抓住任何木斧！"
 				type: "item"
 			}]
-			title: "Lumbering On"
+			title: "伐木进行中"
 			x: -2.25d
 			y: -4.5d
 		}
@@ -691,13 +691,13 @@
 			dependencies: ["36DD94945D5B4A80"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Wrought Iron has a very low carbon content, but that's enough to make it &btougher&r than regular Iron."
+				"锻铁的碳含量非常低，但这足以使其&btougher&r比普通铁更坚固。"
 				""
-				"&aGregTech&r tools made of Wrought Iron are &650% more durable&r than their Iron cousins. You might want to consider using Wrought Iron until you unlock &2something better&r."
+				"&aGregTech&r用锻铁制作的工具比铁工具&650%更耐用&r。您可能想考虑使用锻铁，直到您解锁&2更好的材料&r。"
 				""
-				"To obtain Wrought Iron, you can &6smelt&r Iron Nuggets into Wrought Iron Nuggets, then recombine them into an ingot. Make sure you don't convert all of your Iron supply, as the two &4&laren't&r interchangeable."
+				"要获得锻铁，您可以&6熔炼&r铁矿粒成锻铁矿粒，然后重新组合成锭。确保您不要将所有铁供应都转换，因为这两者&4&laren't&r可以互换。"
 				""
-				"This may be time-consuming, but rest assured, you'll unlock a &ebetter way&r to produce Wrought Iron before long."
+				"这可能会耗费时间，但请放心，您很快就会解锁&ebetter way&r来生产锻铁。"
 			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "563C96885A227C9F"
@@ -709,7 +709,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Murder, she Wrought"
+			subtitle: "谋杀，她锻造(Murder, she Wrought)"
 			tasks: [{
 				id: "3DAB1D757B3B049D"
 				item: {
@@ -719,23 +719,23 @@
 						value: "forge:ingots/wrought_iron"
 					}
 				}
-				title: "Wrought Iron Ingot"
+				title: "锻铁锭"
 				type: "item"
 			}]
-			title: "Better Than Iron"
+			title: "比铁更好"
 			x: 0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1ECBA1CBFFB9F625"]
 			description: [
-				"Alright - your first &oproper&r &aGregTech&r tool. The first of &dmany&r."
+				"好吧——您的第一个&oproper&r&aGregTech&r工具。许多工具中的第一个。"
 				""
-				"GT tools can be made out of many different materials. When used in crafting recipes, they &baren't consumed&r, instead losing durability. You'll want to start with an Iron tool - but you could opt for Wrought Iron if you already tackled that quest."
+				"GT工具可以用许多不同的材料制作。当在制作配方中使用时，它们&baren't consumed&r，而是失去耐久度。您会想先从铁工具开始——但如果您已经完成了那个任务，可以选择锻铁。"
 				""
-				"&9&lHammer&f:&r A crafting tool that shows up in a lot of earlygame recipes. Its secondary function is muting machines by &msmacking&r right-clicking them."
+				"&9&l锤子&f:&r 一种出现在许多早期制作配方中的制作工具。它的第二个功能是通过&msmacking&r右键单击来静音机器。"
 				""
-				"As a sidenote on all &aGregTech&r tools, you can repair them in an Anvil using the material of the tool itself, just like any vanilla tool. If you are finding yourself short on experience, &eBottles o' Enchanting&r are now craftable."
+				"关于所有&aGregTech&r工具的旁注，您可以使用工具本身的材料在铁砧中修复它们，就像任何原版工具一样。如果您发现自己缺乏经验，&e魔法瓶&r现在可以制作。"
 			]
 			id: "7DEB73FD649BDFB6"
 			rewards: [{
@@ -746,7 +746,7 @@
 			}]
 			shape: "square"
 			size: 0.75d
-			subtitle: "Your first GT Tool!"
+			subtitle: "您的第一个GT工具！"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -766,23 +766,23 @@
 						value: "forge:tools/hammers"
 					}
 				}
-				title: "Any Hammer!"
+				title: "任何锤子！"
 				type: "item"
 			}]
-			title: "STOP! Hammer time!"
+			title: "停下！锤子时间！"
 			x: 2.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"This hammer isn't quite like the ones you'll use for crafting. It actually works as a &d3x3 pickaxe&r!"
+				"这个锤子与您用于制作的锤子并不完全相同。它实际上可以作为一个&d3x3 pickaxe&r！"
 				""
-				"If you're familiar with &a&lTinker's Construct&r, it behaves &esimilarly&r to hammers from that mod."
+				"如果您熟悉&a&lTinker's Construct&r，它的行为与该模组中的锤子&esimilarly&r。"
 				""
-				"Make &bgood use&r of these hammers! They'll help you to clear out an entire vein in &6record time&r."
+				"好好利用这些锤子！它们将帮助您在&6创纪录的时间&r内清理整个矿脉。"
 				""
-				"&eNote:&r Any quest with GregTech tools can be complete with tools crafted from any material - not just the one displayed."
+				"&e注意:&r 任何与GregTech工具相关的任务都可以使用任何材料制作的工具完成，而不仅仅是显示的材料。"
 			]
 			icon: {
 				Count: 1b
@@ -797,7 +797,7 @@
 			id: "4A365A7CC9E374F9"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Mining just became efficient"
+			subtitle: "挖矿变得高效"
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -817,27 +817,27 @@
 						value: "forge:tools/mining_hammers"
 					}
 				}
-				title: "Any Mining Hammer will do."
+				title: "任何采矿锤都可以。"
 				type: "item"
 			}]
-			title: "Hammer down!"
+			title: "锤子下去！"
 			x: 2.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"In the real world, iron isn't &oonly&r found as pure Iron Ore. Instead, it's found in a &avariety&r of &eoxide forms&r or &eminerals&r."
+				"在现实世界中，铁并不是&oonly&r以纯铁矿石的形式存在。相反，它以&avariety&r的&e氧化物形式&r或&e矿物&r存在。"
 				""
-				"You'll want to go and collect quite a bit of Iron, because you're going to need &9a bunch&r very soon. If you're struggling to find some, the &aOre Generation&r quest tab contains a lot of information on &eore veins&r. You may also want to check the Ore Spawn Information and Ore Byproduct List tabs in &2JEI&r."
+				"您会想去收集相当多的铁，因为您很快就会需要&9一堆&r。如果您在寻找时遇到困难，&a矿石生成&r任务选项卡包含了关于&e矿脉&r的大量信息。您还可以查看&2JEI&r中的矿石生成信息和矿石副产品列表选项卡。"
 				""
-				"Any of the raw ores we're asking for can be directly smelted into Iron. That comes to &dfour different veins&r that can give you Iron."
+				"我们要求的任何原矿都可以直接熔炼成铁。这包括&dfour different veins&r可以提供铁。"
 				""
-				"Lastly, Fortune &cdoes not&r work on GregTech ores, &7unfortunately&r."
+				"最后，&c不&r适用于GregTech矿石，&7不幸的是&r。"
 				"{@pagebreak}"
-				"Whilst it may be common habit to hoard ore in &bmodded Minecraft&r prior to unlocking some kind of &aore multiplication&r, don't worry about ore processing yet. Direct smelting remains the most efficient method for a long, &olong&r while, given how easy it is to obtain a lot of ore in a &emining trip&r."
+				"虽然在解锁某种&a矿石倍增&r之前，囤积矿石在&b模组Minecraft&r中可能是常见习惯，但现在不用担心矿石加工。直接熔炼在很长一段时间内仍然是最有效的方法，考虑到在&emining trip&r中获得大量矿石是多么容易。"
 				""
-				"Gather &l&cany&r of the requested &dRaw Ores&r to complete this quest!"
+				"收集&l&c任何&r请求的&d原矿&r以完成此任务！"
 			]
 			icon: "minecraft:iron_ingot"
 			id: "1ECBA1CBFFB9F625"
@@ -848,7 +848,7 @@
 				type: "item"
 			}]
 			size: 0.75d
-			subtitle: "Isn't it ironic... don't you think?"
+			subtitle: "这难道不讽刺吗……你觉得呢？"
 			tasks: [{
 				id: "063705687ED657F5"
 				item: {
@@ -891,25 +891,25 @@
 						]
 					}
 				}
-				title: "Iron-bearing Ores"
+				title: "含铁矿石"
 				type: "item"
 			}]
-			title: "Iron, Iron, Iron!"
+			title: "铁，铁，铁！"
 			x: 0.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"More GregTech tools are required for progression - here are the ones to lay eyes on."
+				"更多GregTech工具是进展所需的——这里是您需要关注的工具。"
 				""
-				"&9&lWrench:&r A crafting tool, but also the correct tool for GregTech machines... perfect if you think using pickaxes is unethical. It can also double as a &6wrench for other mods&r. Right-click allows you to set the output side of GregTech machines, and sneak-right-clicking rotates machines."
+				"&9&l扳手:&r 一种制作工具，但也是GregTech机器的正确工具……如果您认为使用镐是不道德的，它也可以作为其他模组的&6扳手&r。右键单击可以设置GregTech机器的输出侧，而偷偷右键单击可以旋转机器。"
 				""
-				"&9&lFile:&r A crafting tool... and that's it. Yay!"
+				"&9&l锉刀:&r 一种制作工具……就这样。耶！"
 				""
-				"&9&lSaw:&r Yet another crafting tool. If we were any more evil, we would force its use if you wanted to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That being said, you can still use it to get &a6 Planks per Log&r, if you wish."
+				"&9&l锯子:&r 又一个制作工具。如果我们再恶毒一点，我们会强迫您使用它，如果您想从各自的制作配方中获得4块木板和4根木棍。话虽如此，您仍然可以使用它来获得&a6 Planks per Log&r，如果您愿意。"
 				"{@pagebreak}"
-				"&eNote:&r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed."
+				"&e注意:&r 任何与GregTech工具相关的任务都可以使用任何材料制作的工具完成，而不仅仅是显示的工具。"
 			]
 			icon: {
 				Count: 1b
@@ -934,7 +934,7 @@
 							value: "forge:tools/wrenches"
 						}
 					}
-					title: "Any Wrench!"
+					title: "任何扳手！"
 					type: "item"
 				}
 				{
@@ -946,7 +946,7 @@
 							value: "forge:tools/files"
 						}
 					}
-					title: "Any File!"
+					title: "任何锉刀！"
 					type: "item"
 				}
 				{
@@ -958,40 +958,40 @@
 							value: "forge:tools/saws"
 						}
 					}
-					title: "Any Saw!"
+					title: "任何锯子！"
 					type: "item"
 				}
 			]
-			title: "Important Tools"
+			title: "重要工具"
 			x: 3.75d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More tools - they're not critically important right now, but you'll need to make these at some point."
+				"更多工具——它们现在并不是至关重要，但您总有一天需要制作这些。"
 				""
-				"&9&lScrewdriver:&r A crafting tool. It's used for special configuration of machines and covers."
+				"&9&l螺丝刀:&r 一种制作工具。它用于机器和覆盖物的特殊配置。"
 				""
-				"&9&lWire Cutter:&r A crafting tool. You'll need it if you want to configure wire connections. Right-clicking on wires will enable or disable connection to other blocks."
+				"&9&l切线钳:&r 一种制作工具。如果您想配置电线连接，就需要它。右键单击电线将启用或禁用与其他方块的连接。"
 				""
-				"&9&lMortar:&r A crafting tool, used to grind various things down into dust form."
+				"&9&l研钵:&r 一种制作工具，用于将各种物品研磨成粉末。"
 				""
-				"&9&lKnife:&r A pretty mediocre weapon, better suited as - &oyou guessed it&r - a crafting tool!"
+				"&9&l刀:&r 一种相当普通的武器，更适合作为——&oyou guessed it&r——一种制作工具！"
 				""
-				"&9&lSoft Mallet:&r A tool to toggle machine operation with a simple right-click."
+				"&9&l软槌:&r 一种工具，通过简单的右键单击来切换机器的操作。"
 				"{@pagebreak}"
-				"There are a couple of other tools that are quite niche, but deserve a mention."
+				"还有一些其他工具相当小众，但值得一提。"
 				""
-				"&9&lCrowbar:&r A helpful tool that can remove covers from &aGregTech&r machines by right-clicking the side."
+				"&9&l撬棍:&r 一种有用的工具，通过右键单击侧面可以从&aGregTech&r机器上移除覆盖物。"
 				""
-				"&9&lScythe:&r A powerful farming tool that can automatically replant your crops in a large area. It's also a surprisingly good weapon!"
+				"&9&l镰刀:&r 一种强大的农具，可以在大面积内自动重新种植作物。它也是一种出乎意料的好武器！"
 				""
-				"&9&lPlunger:&r A tool to clear stuck fluids from GregTech&a machines."
+				"&9&l抽水器:&r 一种工具，用于清除GregTech&a机器中的卡住的液体。"
 				""
-				"&9&lButchery Knife:&r A weapon that comes pre-enchanted with &6Looting III&r. You might want to use it to gather leather and food."
+				"&9&l屠宰刀:&r 一种预附魔的武器，带有&6抢夺III&r。您可能想用它来收集皮革和食物。"
 				"{@pagebreak}"
-				"&e&lNote:&r This quest's reward is &3Damascus Steel&r - a rare material which can only be found as overworld loot. It far surpasses the materials you have now, so be sure to use it."
+				"&e&l注意:&r 此任务的奖励是&3大马士革钢&r——一种只能作为世界生成物品找到的稀有材料。它远远超过您现在拥有的材料，因此请务必使用它。"
 			]
 			icon: {
 				Count: 1b
@@ -1021,7 +1021,7 @@
 							value: "forge:tools/screwdrivers"
 						}
 					}
-					title: "Any Screwdriver!"
+					title: "任何螺丝刀！"
 					type: "item"
 				}
 				{
@@ -1033,7 +1033,7 @@
 							value: "forge:tools/wire_cutters"
 						}
 					}
-					title: "Any Wire Cutter!"
+					title: "任何切线钳！"
 					type: "item"
 				}
 				{
@@ -1045,7 +1045,7 @@
 							value: "forge:tools/mortars"
 						}
 					}
-					title: "Any Mortar!"
+					title: "任何研钵！"
 					type: "item"
 				}
 				{
@@ -1057,7 +1057,7 @@
 							value: "forge:tools/knives"
 						}
 					}
-					title: "Any Knife!"
+					title: "任何刀！"
 					type: "item"
 				}
 				{
@@ -1069,30 +1069,30 @@
 							value: "forge:tools/mallets"
 						}
 					}
-					title: "Any Soft Mallet!"
+					title: "任何软槌！"
 					type: "item"
 				}
 			]
-			title: "More Tools"
+			title: "更多工具"
 			x: 5.25d
 			y: -3.0d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"The &e&lCoke Oven&r will likely be your first &aGregTech&r multiblock. Congratulations!"
+				"&e&l焦炭炉&r可能是您第一个&aGregTech&r多块结构。恭喜！"
 				""
-				"It is used to make &aCoke&r from &eCoal&r, or &aCharcoal&r from &eWood&r, in addition to &dliquid Creosote&r as a &3bonus&r output."
+				"它用于将&e煤&r制成&a焦炭&r，或将&e木材&r制成&a木炭&r，此外还可以作为&d液体木焦油&r的&3额外&r输出。"
 				""
-				"Take a look at the &6Multiblock Preview&r tab in JEI (press &dU&r over the controller block of any Multiblock!) to see the structure pattern."
+				"查看JEI中的&6多块预览&r选项卡（按&dU&r在任何多块控制器块上）以查看结构图案。"
 				"{@pagebreak}"
-				"&9Note:&r &lAny&r Brick block can be replaced with a &3Coke Oven Hatch&r. You can have up to five of them."
+				"&9注意:&r &l任何&r砖块都可以替换为&3焦炭炉舱&r。您最多可以放置五个。"
 				""
-				"The Hatch allows for automation - it'll &dauto-export&r both Fluid and Items! It also works for insertion into the Coke Oven (you can use Hoppers)."
+				"舱允许自动化——它将&d自动导出&r流体和物品！它也适用于向焦炭炉的插入（您可以使用漏斗）。"
 				""
-				"If the Coke Oven happens to fully fill up on &eCreosote&r that you are not using, break and replace the Coke Oven block. &3Automated fluid voiding&r is available later in the game."
+				"如果焦炭炉恰好完全填满您未使用的&e木焦油&r，请打破并替换焦炭炉块。&3自动清空流体&r将在游戏后期可用。"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o The concept of multiblocks is a modded Minecraft classic. Think of IC2's Nuclear Reactor, or Railcraft's Coke Oven - truly revolutionary at the time!&r"
+				"&l&3背景故事:&r&o 多块的概念是模组Minecraft的经典。想想IC2的核反应堆或Railcraft的焦炭炉——在当时是革命性的！&r"
 			]
 			icon: "gtceu:coke_oven"
 			id: "4946FC5BCA4CCA88"
@@ -1105,24 +1105,24 @@
 			}]
 			shape: "gear"
 			size: 1.2d
-			subtitle: "Your first big project... hopefully"
+			subtitle: "您第一个大型项目……希望如此"
 			tasks: [{
 				id: "3545479A7C09CDFC"
 				item: "gtceu:coke_oven"
 				type: "item"
 			}]
-			title: "Coke Oven"
+			title: "焦炭炉"
 			x: 5.25d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"More resources are always nice. You're getting close to entering the &6age of Steam&r - Copper and Tin are required in many &6Steam Age&r machines, so check the ore tab to find out what veins they can be found in, and get mining!"
+				"更多资源总是不错的。您即将进入&6蒸汽时代&r——铜和锡在许多&6蒸汽时代&r机器中是必需的，因此请查看矿石选项卡以了解它们可以在什么矿脉中找到，并开始挖矿！"
 				""
-				"If the different ore names are &bconfusing&r, you can tell which elements an ore holds at a glance by reading the &dmolecular formula&r in its tooltip. Copper is &oCu&r, Tin is &oSn&r, Iron is &oFe&r, and you can consult a &3periodic table&r for the rest. It's time to brush up on your chemistry - you'll need it for &llater&r."
+				"如果不同的矿石名称让您&b困惑&r，您可以通过阅读工具提示中的&dmolecular formula&r一眼看出矿石中包含哪些元素。铜是&oCu&r，锡是&oSn&r，铁是&oFe&r，您可以查阅&3元素周期表&r以获取其余元素的信息。是时候复习一下您的化学知识了——您将在&llater&r需要它。"
 				""
-				"This quest can be completed with &9either metal&r, so you can claim the metal you're missinng as the reward. Be sure to find a source of both soon, as a &a&ocertain&r&a Copper-Tin alloy&r will be needed to get through the &6Steam Age&r."
+				"此任务可以用&9任一金属&r完成，因此您可以将缺少的金属作为奖励领取。请确保尽快找到两者的来源，因为&aa&ocertain&r&a铜锡合金&r将需要您通过&6蒸汽时代&r。"
 			]
 			icon: "minecraft:copper_ingot"
 			id: "45969FFBF88F4FBB"
@@ -1133,7 +1133,7 @@
 				type: "choice"
 			}]
 			size: 0.75d
-			subtitle: "Gather more resources!"
+			subtitle: "收集更多资源！"
 			tasks: [{
 				count: 32L
 				id: "616556ECE4DB6103"
@@ -1153,23 +1153,23 @@
 						]
 					}
 				}
-				title: "32 Copper or Tin"
+				title: "32 铜或锡"
 				type: "item"
 			}]
-			title: "Onwards to the Age of Bronze!"
+			title: "走向青铜时代！"
 			x: 3.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"&6Bronze&r is an &2alloy&r of Copper and Tin. Grind down 3 parts Copper and 1 part Tin into dust, then combine and smelt them. If you are confused on how this is done, take a look at the &o\"&dMore Tools&r&o\"&r quest."
+				"&6青铜&r是铜和锡的&2合金&r。将3部分铜和1部分锡研磨成粉，然后结合并熔炼它们。如果您对如何做到这一点感到困惑，请查看&o“&d更多工具&r&o”&r任务。"
 				""
-				"Aim to make &amany more&r Bronze Ingots than is called for here. This is the main material for the &6Steam Age&r, and you will need LOTS of it."
+				"目标是制作&amany more&r青铜锭，而不是这里要求的数量。这是&6蒸汽时代&r的主要材料，您将需要大量的。"
 				""
-				"&6&lThe progression now continues in the Steam Age chapter.&r"
+				"&6&l进展现在继续在蒸汽时代章节中。&r"
 				"{@pagebreak}"
-				"&l&3Lore:&r&o Bronze in real life is closer to a ratio of 7:1 for Copper to Tin. Here (and in most of modded Minecraft) this is &4not&f the case for the sake of game balance. There are a lot of things like this that need to be tweaked - &eno realism here&f."
+				"&l&3背景故事:&r&o 现实生活中的青铜更接近于7:1的铜与锡的比例。在这里（以及大多数模组Minecraft中），为了游戏平衡，这不是&4不&r的情况。有很多这样的事情需要调整——&eno realism here&f。"
 			]
 			icon: "gtceu:bronze_ingot"
 			id: "315DBB3B23F95E0D"
@@ -1181,25 +1181,25 @@
 			}]
 			shape: "gear"
 			size: 1.3d
-			subtitle: "Humanity's first alloy - and yours too!"
+			subtitle: "人类的第一种合金——也是您的！"
 			tasks: [{
 				count: 24L
 				id: "39AEA2923971A2B5"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			title: "Bronze Age? No, &6Steam Age&r!"
+			title: "青铜时代？不，&6蒸汽时代&r！"
 			x: 5.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7DEB73FD649BDFB6"]
 			description: [
-				"The bucket recipe has been &d&lchanged.&r It now requires plates - &owahoo&r."
+				"桶的配方已经&d&l更改了。&r 现在需要板材——&owahoo&r。"
 				""
-				"Plates are used absolutely &beverywhere&r in &aGregTech&r. Combining two ingots with your new &9hammer&r in a crafting table will make a plate. This ratio is kind of &cexpensive,&r but better recipes for plates will come later."
+				"板材在&aGregTech&r中几乎&beverywhere&r。将两个锭与您的新&9锤子&r结合在制作台中将制作出一个板材。这个比例有点&cexpensive&r 但更好的板材配方将在以后出现。"
 				""
-				"Take this &6Wooden Barrel&r full of &bWater&r as a reward. Huh... isn't that an odd reward? We just wanted to show you that all &aGTCEu&r tanks are portable."
+				"作为奖励，拿着这个装满&b水&r的&6木桶&r。嗯……这不是一个奇怪的奖励吗？我们只是想向您展示所有&GTCEu&r的储罐都是便携的。"
 			]
 			icon: "minecraft:bucket"
 			id: "592BD683A48C2AA2"
@@ -1219,24 +1219,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "#realism"
+			subtitle: "#现实主义"
 			tasks: [{
 				id: "5DD165E4EB34C022"
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			title: "Greg has struck"
+			title: "Greg已经打击"
 			x: 2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Okay, we were generous enough to leave Wood-to-Plank-ratios &cuntouched&r, but this is GregTech - charcoal smelting is &4&lnot possible&r in a Furnace. You'll need to make a &d&lCoke Oven&r to get your grubby hands on some &6charcoal&r."
+				"好吧，我们慷慨地保持了木材到木板的比例&cuntouched&r，但这是GregTech——在熔炉中&4&lnot possible&r熔炼木炭。您需要制作一个&d&l焦炭炉&r，才能获得一些&6木炭&r。"
 				""
-				"Wooden planks are still pretty good as &6furnace fuel&r, especially since you get &l&3four&r from one log."
+				"木板仍然是很好的&6熔炉燃料&r，特别是因为您从一根原木中获得&l&3四&r块。"
 				""
-				"If this displeases you - normally you'd be able to &brevert this back&r to vanilla behaviour in the &aGTCEu&r configs, but the configuration option is bugged. To &erevert&r the nerf, you can delete the \"charcoal.js\" script in &bkubejs/server_scripts&r!"
+				"如果这让您不高兴——通常您可以在&aGTCEu&r的配置中将其&brevert back&r为原版行为，但配置选项有问题。要&erevert&r削弱，您可以删除&bkubejs/server_scripts&r中的“charcoal.js”脚本！"
 			]
 			icon: "minecraft:charcoal"
 			id: "36DD94945D5B4A80"
@@ -1248,7 +1248,7 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Not here!"
+			subtitle: "不在这里！"
 			tasks: [{
 				count: 48L
 				id: "3DF01E4FACBB1D53"
@@ -1259,25 +1259,25 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "We demand more logs."
+				title: "我们要求更多的原木。"
 				type: "item"
 			}]
-			title: "Charcoal?"
+			title: "木炭？"
 			x: 0.75d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"In this &blightweight&r modpack, we've included enough QoL to &o(hopefully)&r fit your needs, and the pack is &aperfectly playable&r as is."
+				"在这个&blightweight&r模组包中，我们包含了足够的生活质量，以&o（希望）&r满足您的需求，并且该包是&a完全可玩的&r。"
 				""
-				"&dStorage Drawers&r and &dApplied Energistics 2&r make an appearance to help with &estorage&r and &6logistics&r. Their recipes have been modified to fit progression, but you hopefully won't need to play 50 hours to make your first &5Molecular Assembler&r. There are also a few other mods that you may wish to pursue for some &ahelpful QoL&r."
+				"&d储存抽屉&r和&d应用能量2&r的出现帮助解决了&estorage&r和&6logistics&r问题。它们的配方已被修改以适应进展，但您希望不会需要玩50小时才能制作出第一个&5分子组装机&r。还有一些其他模组，您可能希望追求一些&a有用的生活质量&r。"
 				"{@pagebreak}"
-				"But maybe you require... &osomething more&r?"
+				"但是也许您需要……&osomething more&r？"
 				""
-				"If you're playing solo, feel free to &aadd mods&r to your instance. Some more &bQoL&r could be nice... more &3Tech&r could sate your cravings... maybe even some &5magic mods&r, as long as you don't add &eProjectE&r. Promise?"
+				"如果您单独玩，请随意&a添加模组&r到您的实例中。一些更多的&b生活质量&r可能会很好……更多的&3科技&r可能会满足您的渴望……甚至一些&5魔法模组&r，只要您不添加&eProjectE&r。保证？"
 				""
-				"On the 1.12.2 version of &aGregtech: CEu&r, there were multiple &aGregTech&r addons that may be ported to 1.19.2 in future. Rest assured that this pack will do its &dbest&r to support them if they make it to this version!"
+				"在&1.12.2版本的&aGregtech: CEu&r中，有多个&aGregTech&r附加模组可能会在未来移植到&1.19.2中。请放心，如果它们能够进入这个版本，这个包将尽力支持它们！"
 			]
 			icon: "minecraft:structure_void"
 			id: "1283B4D7B5D82193"
@@ -1288,24 +1288,24 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Omw to install DecoCraft"
+			subtitle: "准备安装DecoCraft"
 			tasks: [{
 				id: "70C69E5432F6C3BE"
-				title: "I accept responsibility for any mod conflicts ;)"
+				title: "我对任何模组冲突承担责任；)"
 				type: "checkmark"
 			}]
-			title: "More mods?"
+			title: "更多模组？"
 			x: 2.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Don't worry, these crafts are actually useful - you'll be required to make &ehundreds more&r of these components. It's good to start building the habit."
+				"别担心，这些工艺实际上是有用的——您将需要制作&ehundreds more&r这样的组件。养成这个习惯是好的。"
 				""
-				"It's generally wise to get familiar with the idea of &o\"&bbulk-crafting&r&o\"&r - if you need 1 plate, try making 8, etc. This means you'll have lots of these &dintermediates&r ready for future crafts. It might seem unreasonable to craft &astacks of rods&r or &ascrews&r especially this early on, but they will always end up being used, saving you a lot of micro-crafting in the future."
+				"通常明智的做法是熟悉&o“&bbulk-crafting&r&o”&r的概念——如果您需要1个板，尝试制作8个等等。这意味着您将为未来的工艺准备大量的这些&d中间物品&r。尽管在如此早期制作&astacks of rods&r或&ascrews&r似乎不合理，但它们总会被使用，从而为您节省大量未来的微型制作。"
 				""
-				"If you needed &6any more&r convincing, take a peek at the &drewards&r for this quest."
+				"如果您需要&6更多&r说服，看看这个任务的&drewards&r。"
 			]
 			icon: "minecraft:bone_meal"
 			id: "49A04E63F40D65C0"
@@ -1368,7 +1368,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Put your micro-crafting talent to the task!"
+			subtitle: "发挥您的微型制作才能！"
 			tasks: [
 				{
 					count: 16L
@@ -1383,16 +1383,16 @@
 					type: "item"
 				}
 			]
-			title: "A Minor Test of Strength"
+			title: "小试身手"
 			x: 3.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45969FFBF88F4FBB"]
 			description: [
-				"Iron, Copper and Tin will only get you so far. &4Redstone&r and &bDiamond&r will occasionally be required during the &6Steam Age&r, whereas Nickel, Lead and Silver are also nice to have. All will come in handy &asoon enough&r."
+				"铁、铜和锡只能让您走这么远。&4红石&r和&b钻石&r在&6蒸汽时代&r期间偶尔会被要求，而镍、铅和银也很不错。所有这些很快都会派上用场。"
 				""
-				"&oConsult the ore tab if you're struggling to find these materials!&r"
+				"&o如果您在寻找这些材料时遇到困难，请查看矿石选项卡！&r"
 			]
 			icon: "gtceu:silver_ingot"
 			id: "62212F2B51AC779E"
@@ -1442,7 +1442,7 @@
 			]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "Sometimes, you gotta be inefficient... to be efficient!"
+			subtitle: "有时候，您必须低效……才能高效！"
 			tasks: [
 				{
 					count: 64L
@@ -1475,95 +1475,95 @@
 					type: "item"
 				}
 			]
-			title: "Early Investments"
+			title: "早期投资"
 			x: 5.25d
 			y: 0.0d
 		}
 		{
 			description: [
-				"Be sure to &aproperly&r read &lthis&r quest - it has some &dimportant information&r that will remain relevant all throughout your playthrough."
+				"确保&aproperly&r阅读&l这个&r任务——它包含一些&d重要信息&r，在您的整个游戏过程中都将保持相关。"
 				""
-				"Informative quests such as this will appear in the chapter they are unlocked. You can also consult the &b\"Guides + More\"&r quest tab if you feel like you're forgetting something."
+				"这样的信息性任务将在解锁的章节中出现。如果您觉得自己忘记了什么，您还可以查看&b“指南 + 更多”&r任务选项卡。"
 				""
-				"The quest structure is intended to guide you through all the major milestones in &aGregTech&r progression. Every single quest should be &2beneficial&r to look at in some way - if something is 100% optional, we'll mention it, so don't worry about missing anything crucial."
+				"任务结构旨在指导您通过&aGregTech&r进展中的所有主要里程碑。每个任务在某种程度上都是&2有益&r的——如果某些内容是100%可选的，我们会提到它，所以不用担心错过任何关键内容。"
 				"{@pagebreak}"
-				"There are no drawbacks to playing this modpack in &dPeaceful&r - in fact, we highly urge you to do so, as there is little benefit from hostile mobs. Feel free to also to use &o/keepInventory&r, &o/sethome&r, and abuse minimap teleport as you see fit."
+				"在&d和平&r模式下玩这个模组包没有任何缺点——事实上，我们强烈建议您这样做，因为对敌对生物几乎没有好处。您也可以随意使用&o/keepInventory&r、&o/sethome&r，并根据需要滥用小地图传送。"
 				""
-				"Although we won't force these settings onto you, we &4don't&r intend for this modpack to provide a punishing &eSurvival&r experience, but more so help you learn the ins and outs of &aGregTech CEu&r."
+				"虽然我们不会强迫这些设置，但我们&4不&r打算让这个模组包提供一种惩罚性的&e生存&r体验，而是帮助您学习&aGregTech CEu&r的方方面面。"
 				"{@pagebreak}"
-				"Lastly, it's good to be &lsavvy&r with &eJEI.&r &aGregTech&r items will frequently have several recipes, so you should never assume the first recipe &eJEI&r displays is the most efficient. \"Professional\" &eJEI&r usage involves the &bidentification of patterns&r in autogenerated recipes (example: all the Iron related items &6macerate&r into Iron Dust)."
+				"最后，熟悉&eJEI&r是个好主意。&aGregTech&r物品通常会有几种配方，因此您永远不应该假设&eJEI&r显示的第一个配方是最有效的。 \"专业\" &eJEI&r使用涉及&b识别模式&r在自动生成的配方中（例如：所有与铁相关的物品&6磨成&r铁粉）。"
 				""
-				"When complex recipes arise - and we won't sugarcoat, &aGTCEu&r can be intimidating - we'll make sure to direct you towards the more &5efficient routes&r. However, we urge you to experiment on your own. It's no fun to follow the quest book by rote, right?"
+				"当复杂的配方出现时——我们不会隐瞒，&aGTCEu&r可能会让人感到害怕——我们会确保引导您走向更&5高效的路线&r。然而，我们鼓励您自己进行实验。按照任务书一成不变地进行可没意思，对吧？"
 			]
 			icon: "ftbquests:book"
 			id: "13E9DF7E980CFC5B"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Read this, and read it again!"
+			subtitle: "阅读它，再读一遍！"
 			tasks: [{
 				id: "04CC2E592A648F06"
-				title: "I have read this page multiple times"
+				title: "我已经多次阅读了这一页"
 				type: "checkmark"
 			}]
-			title: "Important Information"
+			title: "重要信息"
 			x: -2.25d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2001CB4968D3E0A2"]
 			description: [
-				"Crafting can quickly get &etiresome&r. How about making use of your &2new saw&r to make this Crafting table?"
+				"制作可能很快变得&etiresome&r。如何利用您的&2新锯&r来制作这个制作台？"
 				""
-				"It allows you to craft from adjacent inventories, making classic &aGregTech&r microcrafting so much less &4tedious&r."
+				"它允许您从相邻的库存中制作，使经典的&aGregTech&r微型制作变得不那么&4乏味&r。"
 				""
-				"Saw the table again for a lower-profile Slab version."
+				"再次锯掉这个桌子，制作一个更低的板材版本。"
 			]
 			icon: "craftingstation:crafting_station"
 			id: "411AB552514EA14C"
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, Tinkers' is not in this modpack"
+			subtitle: "不，Tinkers'不在这个模组包中"
 			tasks: [{
 				id: "30D40010C8E6E115"
 				item: "craftingstation:crafting_station"
 				type: "item"
 			}]
-			title: "Crafting Station"
+			title: "制作站"
 			x: 3.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"New to this updated pack is a &dGuides + More&r section. The information inside is available to view at any time, but whenever it becomes relevant, you will be &6directed towards it&r for some light reading."
+				"在这个更新的包中新增了一个&d指南 + 更多&r部分。里面的信息可以随时查看，但每当它变得相关时，您将&6被指引到它&r进行一些轻松阅读。"
 				""
-				"The information found inside may interest you if you would like a &adeeper insight&r into some of &bGTCEu's mechanics&r, and in some cases is absolutely indispensable."
+				"如果您希望更深入地了解一些&bGTCEu的机制&r，里面的信息可能会引起您的兴趣，在某些情况下是绝对不可或缺的。"
 				""
-				"Quests that unlock a tutorial node will have an &6orange-ish descriptor&r at the bottom of the quest description."
+				"解锁教程节点的任务将有一个&6橙色描述符&r在任务描述的底部。"
 				""
-				"Get reading!"
+				"开始阅读吧！"
 			]
 			icon: "minecraft:lectern"
 			id: "008ABF78E56209F7"
 			shape: "circle"
 			size: 0.75d
-			subtitle: "Tips and tricks to help you prosper"
+			subtitle: "帮助您繁荣的提示和技巧"
 			tasks: [{
 				id: "382566FB9E8CFE29"
-				title: "Alright, I get it, I get it"
+				title: "好的，我明白了，我明白了"
 				type: "checkmark"
 			}]
-			title: "Tutorialised"
+			title: "教程化"
 			x: -0.75d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0EAF2C5B5EB755C5"]
 			description: [
-				"Rubber Trees can be found in &aForest&r, &2Jungle&r or &aSwamp&r biomes."
+				"橡胶树可以在&a森林&r、&2丛林&r或&a沼泽&r生物群落中找到。"
 				""
-				"Breaking Rubber Logs will yield &6Resin,&r which will be important moving forwards."
+				"砍伐橡胶原木将产生&6树脂&r这在接下来的进展中将非常重要。"
 				""
-				"The logs also offer &duseful resources&r when processed in future."
+				"这些原木在未来加工时也会提供&duseful resources&r。"
 			]
 			id: "5193DD03C0742548"
 			rewards: [{
@@ -1574,45 +1574,45 @@
 			}]
 			shape: "rsquare"
 			size: 0.66d
-			subtitle: "No, this isn't IC2"
+			subtitle: "不，这不是IC2"
 			tasks: [{
 				count: 8L
 				id: "76851CD51E99CA38"
 				item: "gtceu:rubber_sapling"
 				type: "item"
 			}]
-			title: "Gettin' Shaded under a Rubber Tree"
+			title: "在橡胶树下阴凉处"
 			x: 0.75d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Has this pack made you want to try some other &bGregTech Modern&r modpacks?"
+				"这个包是否让您想尝试其他&bGregTech Modern&r模组包？"
 				""
-				"Here are some &acurated&r recommendations!"
+				"这里有一些&acurated&r推荐！"
 				"{@pagebreak}"
-				"&lCosmic Frontiers"
-				"- &7Ghostipedia et al."
+				"&l宇宙前沿&l"
+				"- &7Ghostipedia等。"
 				""
-				"&dCosmic Frontiers&r is a 1.20.1 modpack centered around &bdifficult gameplay&r and the interactions of many mods alongside GTCEu Modern. You'll explore the stars above and travel to the depths below, all whilst managing your &esanity and needs&r against the &ahorrors&r trapped in your universe!"
+				"&d宇宙前沿&r是一个1.20.1模组包，围绕着&bdifficult gameplay&r和许多模组与GTCEu Modern的交互展开。您将探索星空，深入地下，同时管理您的&esanity and needs&r与被困在您宇宙中的&ahorrors&r！"
 				""
-				"In its current state, the pack is considered to be in &2early alpha&r. However, you can still progress through base CEu to &3UHV&r."
+				"在当前状态下，该包被认为处于&2早期alpha&r阶段。然而，您仍然可以通过基础CEu进行进展到&3UHV&r。"
 				"{@pagebreak}"
-				"&lAll the Mods: Gravitas 2"
+				"&l所有模组：Gravitas 2&l"
 				"- &7ATMTeam"
 				""
-				"Starting from &6primitive stone age technology&r, hand-knapping your tools and foraging for food, you'll need to progress through the ages covering many &bclassic and new&r mods. This is seamlessly complemented by mods such as TerraFirmaCraft, Create New Age, Stargate Journey and &8(obviously)&r GregTech."
+				"从&6原始石器时代技术&r开始，手工制作工具和觅食，您需要通过许多&b经典和新&r模组的时代。这个过程与诸如TerraFirmaCraft、Create New Age、Stargate Journey和&8（显然）&r GregTech等模组无缝结合。"
 				""
-				"You'll find yourself transitioning from a &2primitive beginning&r, smashing rocks together, to smashing atoms together, soon &dpowering your voyages&r to the stars and beyond!"
+				"您会发现自己从&2原始开始&r，砸石头到一起，迅速&dpowering your voyages&r前往星空及更远！"
 				"{@pagebreak}"
-				"&lStar Technology"
+				"&l星际科技&l"
 				"- &7trulyno"
 				""
-				"&6Star Technology&r is a 1.19.2 GregTech &dskyblock modpack&r where you play as a scientist stranded in an &balternate dimension&r after a dimensional travel experiment &4catastrophically fails&r."
+				"&6星际科技&r是一个1.19.2的GregTech&d天空区块模组包&r，您作为一名科学家被困在一个&balternate dimension&r中，因一次维度旅行实验&4灾难性失败&r。"
 				""
-				"Progression in this pack will take you above and beyond &3UHV&r, with numerous unique &aStargates&r to craft, and even a remixed &o\"Gregified\"&r Mystical Agriculture."
+				"在这个包中的进展将带您超越&3UHV&r，拥有众多独特的&a星际传送门&r可供制作，甚至还有重新混合的&o“Gregified”&r神秘农业。"
 				""
-				"It's important to note that the pack is still under &eheavy development&r, but you should be able to achieve the &o\"Classic Stargate\"&r as of version BETA 1!"
+				"重要的是，该包仍在&e重开发&r中，但您应该能够在BETA 1版本中获得&o“经典星际传送门”&r。"
 			]
 			icon: "minecraft:netherite_upgrade_smithing_template"
 			id: "63DC162144871509"
@@ -1620,14 +1620,14 @@
 			size: 0.75d
 			tasks: [{
 				id: "3E3D67B53234AD1A"
-				title: "Whoah, these sound cool."
+				title: "哇，这些听起来很酷。"
 				type: "checkmark"
 			}]
-			title: "What Else Can I Play?"
+			title: "我还可以玩什么？"
 			x: -2.25d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Welcome to &6GTCP&r! Glad to have you here."]
-	title: "Introduction"
+	subtitle: ["欢迎来到&6GTCP&r！很高兴您在这里。"]
+	title: "介绍"
 }
